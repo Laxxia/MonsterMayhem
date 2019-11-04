@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03a09917-8487-4ed8-88e6-3aeceeb69d15",
+            "Value": {
+                "id": "793b3fef-ae0d-4300-b35d-26d45a5a19ae",
+                "resourcePath": "scripts\\scrHitCheck\\scrHitCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "04148564-75e0-4b6f-89d1-c679cdd19cac",
             "Value": {
                 "id": "f8b7bbe2-df1f-4bb9-a058-61c5f29a1012",
@@ -87,6 +95,14 @@
             }
         },
         {
+            "Key": "0b8dcdea-1231-44ec-afbf-502fb93601b1",
+            "Value": {
+                "id": "f43cc41c-f96e-4811-b9bb-24cc317bebec",
+                "resourcePath": "objects\\oBiff\\oBiff.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ca94d11-e9c7-4010-8057-ad9a33183c2e",
             "Value": {
                 "id": "0e0ed536-38b3-4e7b-823b-7e741ce522b4",
@@ -108,6 +124,14 @@
                 "id": "f068b46e-2729-4bf5-b6a8-e9e1868b6600",
                 "resourcePath": "views\\1475ff7b-0a47-4452-8c28-4369cf515cd6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "154ddeed-fc71-4374-93b7-697c5b3fed1b",
+            "Value": {
+                "id": "ea2f051a-739d-4ea6-a5c3-9c94490ce98a",
+                "resourcePath": "scripts\\scrToWound\\scrToWound.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -148,6 +172,14 @@
                 "id": "072f2e2d-09f7-470e-b2ad-df2efc05271f",
                 "resourcePath": "sprites\\sMonster\\sMonster.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b758255-4b83-4581-9ce3-9c2aa2d002b7",
+            "Value": {
+                "id": "4f37e856-1105-4f3b-8dfa-dd71d9280fcd",
+                "resourcePath": "objects\\oRangedAttack\\oRangedAttack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,6 +260,14 @@
                 "id": "330f1f35-86cd-40c7-9cfc-d2a15a765801",
                 "resourcePath": "objects\\oMapTile\\oMapTile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52bcdb7e-8d1b-4c78-8f1b-d4bd81f36d56",
+            "Value": {
+                "id": "c6daed08-03a2-4dc8-abb8-d4e13f1da501",
+                "resourcePath": "sprites\\sBiff\\sBiff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +471,14 @@
             }
         },
         {
+            "Key": "9156631e-6d38-465d-81f5-7e3c8d9847d7",
+            "Value": {
+                "id": "f6e25926-3d14-44a4-ad5a-21bbdee2229b",
+                "resourcePath": "fonts\\fDamage\\fDamage.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "920b0026-4214-4860-a594-0c32dda300ef",
             "Value": {
                 "id": "e87c9b3b-f9f9-4724-a199-558d1c2dc941",
@@ -483,6 +531,14 @@
             "Value": {
                 "id": "caeed383-7548-48a3-a34c-7707e7c4ae28",
                 "resourcePath": "objects\\oAccept\\oAccept.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9a43e223-1212-42ed-a9a1-9dbfa49e6f24",
+            "Value": {
+                "id": "1953252a-df18-4652-89cf-eafd3a5a5016",
+                "resourcePath": "objects\\oDamageText\\oDamageText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -615,11 +671,27 @@
             }
         },
         {
+            "Key": "bb2c258c-3181-4490-b1c2-f422fa80e7ed",
+            "Value": {
+                "id": "ea54d6cc-bc83-43ec-970f-a5f85476121c",
+                "resourcePath": "fonts\\fDefault\\fDefault.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "bd39bcc5-8191-416d-8e17-0d1084842e55",
             "Value": {
                 "id": "ad38d9d0-58cf-41dd-aa95-a7ca052e4da4",
                 "resourcePath": "objects\\DoneFreeMoving\\DoneFreeMoving.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c324b776-bf96-47c7-a35e-e5d262acba56",
+            "Value": {
+                "id": "5f11a340-c299-48e4-b6a5-e320150df75e",
+                "resourcePath": "fonts\\fCrit\\fCrit.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -812,7 +884,9 @@
         "980d9657-70a8-4804-ae83-23ae97ca9f16",
         "53185d43-d35f-4a52-9b08-0fbd3408dabb",
         "315b42e1-29bc-4b24-a41f-8dea5ed20d22",
-        "61266b5f-522f-4ea8-ad24-f23c3c54c982"
+        "61266b5f-522f-4ea8-ad24-f23c3c54c982",
+        "03a09917-8487-4ed8-88e6-3aeceeb69d15",
+        "154ddeed-fc71-4374-93b7-697c5b3fed1b"
     ],
     "tutorial": ""
 }

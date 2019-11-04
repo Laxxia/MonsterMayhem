@@ -9,6 +9,7 @@ if(attackChecked = false){
 			if(temp.objectType = combatType.monster){
 				enabled = true;
 				triggered = true;
+				return(temp);
 			}
 		} else if(triggered != true){enabled = false;}
 	}

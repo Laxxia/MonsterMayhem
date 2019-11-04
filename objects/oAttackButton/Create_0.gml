@@ -4,4 +4,4 @@ image_speed = 0;
 enabled = false;
 targetPlayer = noone;
 attackChecked = false;
-scrCombatCheck();
+targetMonster = scrCombatCheck();

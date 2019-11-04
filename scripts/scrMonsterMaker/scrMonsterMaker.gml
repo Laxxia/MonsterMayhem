@@ -8,5 +8,6 @@ switch(monsterID){
 		monsterName = "Fey Cursed Pig";
 		move = 6;
 		toughness = 8;
+		healthPoints = 5;
 	break;
 }

@@ -6,5 +6,6 @@ event_inherited();
 gridX = 0;
 gridY = 0;
 move = 6;
+healthPoints = 0;
 monsterState = "turn start"
 objectType = combatType.monster;

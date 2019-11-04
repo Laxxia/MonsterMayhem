@@ -8,4 +8,7 @@ if(playerAttack){
 	global.curState = state.playerTurn;
 	global.curPlayer = id;
 	scrActionMenu();
+} else {
+	global.curState = state.playerTurn;
+	global.curPlayer = noone;
 }

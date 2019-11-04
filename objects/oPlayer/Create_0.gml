@@ -25,6 +25,7 @@ pathSpeed = 8;
 //Combat Variables -------------------------
 currentWeapon = -1;
 move = 5; //Max square move distance
-attackType = "melee";
 attackTarget = noone;
-attackTimer = 0;
+attackTimer = 0; 
+shake = 0;
+shakeMag = 0;
