@@ -1,0 +1,5 @@
+WeaponID,Weapon Name,Weapon Type,Speed,HitMin,Strength,AbilityID
+1,Founding Stone,Melee,2,7,1,0
+2,Big Axe,Melee,1,6,3,N/A
+3,BIGGER AXE,Melee,1,3,5,1
+4,Whip,Melee,4,7,4,2
