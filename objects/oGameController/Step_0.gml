@@ -15,12 +15,12 @@ switch(global.curState){
 	break;
 	case state.monsterTurn:
 	break;
+	case state.playerStartTurn:
+		scrPlayerTurnInit();
+	break;
 	case state.playerTurn:
-	//probably have hovering abilities to see some stats of the players and such, 
-	//UI to pull up inventgories etc. and view current chooseable actions
-	//Possibly choose move from actionable actions? 
 	break;
 	case state.attacking:
-		global.curState = state.playerTurn; //Fix this later
+	//Fix this later
 	break;
 }

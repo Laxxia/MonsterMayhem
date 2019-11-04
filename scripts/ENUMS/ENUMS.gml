@@ -6,7 +6,8 @@ enum state {
 	combatStart,
 	freeMovement,
 	playerTurn,
-	monsterTurn
+	monsterTurn,
+	playerStartTurn
 }
 
 enum combatType {

@@ -13,8 +13,15 @@ if(global.curState = state.monsterTurn){
 	break;
 	
 	case "begin attack":
-		image_angle = 90;
+		var attackCheck = scrAICardAction(attackTarget);
+		scrMonsterAttack(attackCheck);
 		monsterState = "idle";
+	break;
+	case "end attack":
+		attackTimer -= 1;
+		if(attackTimer <= 0){
+			monsterState = "idle";
+		}
 	break;
 	case"find target":
 		scrFindTarget();
@@ -29,7 +36,7 @@ if(global.curState = state.monsterTurn){
 	break;
 	case "idle":     
 		global.curPlayer = noone;
-		global.curState = state.playerTurn;
+		global.curState = state.playerStartTurn;
 		monsterState = "turn start";
 	break;
 	}

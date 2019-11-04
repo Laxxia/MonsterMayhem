@@ -2,6 +2,7 @@
 // You can write your code in this editor
 var inst = global.curPlayer
 
+inst.playerState = "ending turn";
 inst.playerMove = false;
 inst.playerAttack = false;
 global.curPlayer = noone;

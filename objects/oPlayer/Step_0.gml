@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(shake > 0){
+	shake -= 1;
+}
 if(grabbed){
 	x = mouse_x;
 	y = mouse_y;
@@ -20,7 +23,7 @@ switch(playerState){
 		//this would set up before attack animation
 		attackTimer -= 1;
 		if(attackTimer <= 0){
-			playerState = "attack";
+			playerState = "attacking";
 		}
 	break;
 	
@@ -64,7 +67,7 @@ switch(playerState){
 		
 					if(woundCheck == "crit"){
 						dmg.font = fCrit;
-						dmg.text = text + "!";
+						dmg.text = dmg.text + "!";
 					}
 				}
 			} else {
@@ -85,8 +88,15 @@ switch(playerState){
 	if(attackTimer <= 0){
 		if(!playerMove){
 			global.curPlayer = noone;
+			playerState = "ending Turn"
 		}
+		playerState = "idle";
 	}
 	break
+	case "ending turn":
+		endTurn = true;
+		playerState = "idle";
+		scrEndTurnCheck();
+	break;
 	
 }

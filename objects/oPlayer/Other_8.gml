@@ -2,7 +2,6 @@
 // You can write your code in this editor
 ///clear path
 path_clear_points(movementPath);
-playerState = "idle";
 
 if(playerAttack){
 	global.curState = state.playerTurn;
@@ -10,5 +9,6 @@ if(playerAttack){
 	scrActionMenu();
 } else {
 	global.curState = state.playerTurn;
+	playerState = "ending turn";
 	global.curPlayer = noone;
 }

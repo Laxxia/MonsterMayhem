@@ -44,7 +44,6 @@ for(var i = 0; i < mapWidth; i++){
 var tile = global.grid[# 8,11]
 var inst = instance_create_layer(tile.x, tile.y, "Instances", oMonster);
 tile.containing = inst;
-tile.passable = false;
 inst.gridX = 8;
 inst.gridY = 11;
 inst.monsterID = selectedMonster;
