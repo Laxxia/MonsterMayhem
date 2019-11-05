@@ -23,4 +23,8 @@ switch(global.curState){
 	case state.attacking:
 	//Fix this later
 	break;
+	case state.win:
+		var inst = instance_create_depth(room_width/2, room_height/2, -9999, oPopUp);
+		inst.type = "Win";
+	break;
 }

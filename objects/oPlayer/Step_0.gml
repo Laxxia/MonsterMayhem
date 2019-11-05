@@ -12,7 +12,6 @@ if(global.curPlayer = id){
 	image_alpha = .5;
 } else {image_alpha = 1;}
 
-var tempDamage = 0;
 switch(playerState){
 	case "begin player path":
 		path_start(movementPath, pathSpeed, 0, true);
@@ -36,7 +35,6 @@ switch(playerState){
 				if(attackCheck){
 					woundCheck = scrToWound(currentWeapon, attackTarget);
 					if(woundCheck != "miss"){
-						tempDamage += 1;
 					} //ToDo - add crit event
 				} else {woundCheck = "miss";}
 			}
@@ -53,6 +51,7 @@ switch(playerState){
 						if(woundCheck == "crit"){
 							inst.color = c_yellow;
 						}
+				}
 					if(woundCheck == "crit"){
 						attackTarget.shake = 8;
 						attackTarget.shakeMag = 8;
@@ -60,7 +59,7 @@ switch(playerState){
 						attackTarget.shake = 4;
 						attackTarget.shakeMag = 4;
 					}
-					attackTarget.healthPoints -= tempDamage;
+					attackTarget.healthPoints --;
 					var dmg = instance_create_depth(attackTarget.x + 60, attackTarget.y + 4, -9998, oDamageText)
 					dmg.text = "-1"//string(other.damage);
 					dmg.ground = y;
@@ -69,7 +68,6 @@ switch(playerState){
 						dmg.font = fCrit;
 						dmg.text = dmg.text + "!";
 					}
-				}
 			} else {
 				with(instance_create_depth(attackTarget.x + 60, attackTarget.y + 4, -9998, oDamageText)){
 					text = "Miss!";

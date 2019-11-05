@@ -41,3 +41,7 @@ if(global.curState = state.monsterTurn){
 	break;
 	}
 }
+
+if(healthPoints <= 0){
+	global.curState = state.win;
+}

@@ -20,7 +20,7 @@ if(room = combatArena){
 	if(global.curState = state.moving){
 		if(mouse_check_button_pressed(mb_left) && !offGrid){
 			if(hoverNode.moveNode){
-				scrMovePlayer(hoverNode);
+				scrMovePlayer();
 				global.curState = state.playerTurn;
 			}
 		}
