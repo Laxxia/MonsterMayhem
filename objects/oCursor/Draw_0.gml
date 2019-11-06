@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(room = combatArena){	
-	if(place_meeting(x, y, oGridSpace)){
+	if(place_meeting(x, y, oGridSpace) && !place_meeting(x,y,oPopUp)){
 		if(hoverNode != noone){
 			draw_sprite(sSelected, -1, hoverNode.x, hoverNode.y);
 		}
