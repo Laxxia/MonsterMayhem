@@ -44,4 +44,5 @@ if(global.curState = state.monsterTurn){
 
 if(healthPoints <= 0){
 	global.curState = state.win;
+	instance_destroy();
 }

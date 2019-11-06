@@ -7,10 +7,10 @@ buttonCount = 0;
 currentWeapon = -1;
 
 var xx = 32
-var yy = 128
+var yy = 64
 var row = 0;
 for(var i = 1; i < ds_grid_height(global.weapons); i++){
-	var xi = 96*(i-1);
+	var xi = 96*((i-1)%4);
 	var yi = 96*(i-1);
 	var inst = instance_create_depth(x + (xx + xi),y + (yy+ row * 96), -9000, oWeapon);
 	inst.WID = i;

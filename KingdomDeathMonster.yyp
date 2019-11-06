@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "c1e8b5c6-62de-4bc5-91fe-310fb7afcf75",
+            "Value": {
+                "id": "a155c17c-ca6f-4a55-9dab-de4289000245",
+                "resourcePath": "sprites\\sprite15\\sprite15.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c324b776-bf96-47c7-a35e-e5d262acba56",
             "Value": {
                 "id": "5f11a340-c299-48e4-b6a5-e320150df75e",
@@ -927,6 +935,14 @@
             }
         },
         {
+            "Key": "fbf39c8d-89b8-4dfc-bb87-982425d43004",
+            "Value": {
+                "id": "5611bd1b-99fe-4a00-963b-33046a951a5b",
+                "resourcePath": "scripts\\scrWinState\\scrWinState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fd56ae6d-5d64-4895-af6d-7ae0997fb7a5",
             "Value": {
                 "id": "2c82e2d7-87fb-4972-adb7-f75479e76dc5",
@@ -962,7 +978,8 @@
         "7ebc75e1-34e5-48d7-8b80-acc79648d511",
         "ba594bcf-d198-4e58-9ca9-d70463857754",
         "0d22e098-f452-4a99-85c5-c26c69f8a98c",
-        "0ae44b35-014a-4df8-bef2-28cac883f26f"
+        "0ae44b35-014a-4df8-bef2-28cac883f26f",
+        "fbf39c8d-89b8-4dfc-bb87-982425d43004"
     ],
     "tutorial": ""
 }
