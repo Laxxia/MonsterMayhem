@@ -8,13 +8,18 @@ currentWeapon = -1;
 
 var xx = 32
 var yy = 128
+var row = 0;
 for(var i = 1; i < ds_grid_height(global.weapons); i++){
 	var xi = 96*(i-1);
-	var inst = instance_create_depth(x + (xx + xi),y + yy, -9000, oWeapon);
+	var yi = 96*(i-1);
+	var inst = instance_create_depth(x + (xx + xi),y + (yy+ row * 96), -9000, oWeapon);
 	inst.WID = i;
 	inst.image_index = i-1;
 	buttons[i-1] = inst;
 	buttonCount ++;
+    if(i%4 = 0){
+		row++;
+	}
 }
 
 var button = instance_create_depth(x+320, y+256, -9000, oAccept);
