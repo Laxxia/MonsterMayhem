@@ -6,4 +6,8 @@ switch(type){
 	case "Restart":
 		game_restart();
 	break;
+	case "Attacked":
+		creator.monsterState = "attack";
+		global.curState = state.monsterTurn;
+	break;
 }

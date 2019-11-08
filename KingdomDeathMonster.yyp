@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "157604d9-e36e-4bde-a7b8-c081a2700ffd",
+            "Value": {
+                "id": "e1e1e532-9855-4ac1-bc6c-32461a80d811",
+                "resourcePath": "scripts\\scrAttackPopup\\scrAttackPopup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d3b56c0-bf29-4620-bfbf-78177f6b3bac",
             "Value": {
                 "id": "ee823845-1b91-4b64-a723-7ba392bfb2ac",
@@ -231,11 +239,27 @@
             }
         },
         {
+            "Key": "33ff37e9-11f7-4957-af90-8fdadd26af39",
+            "Value": {
+                "id": "1d2a97fe-5147-4805-a961-0d5768f16741",
+                "resourcePath": "sprites\\spr_guide\\spr_guide.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34952db3-f137-4927-8a4b-49bbc7f77c0e",
             "Value": {
                 "id": "34644ede-bd17-4df3-94e8-7c32eef4473e",
                 "resourcePath": "views\\34952db3-f137-4927-8a4b-49bbc7f77c0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3586a7f9-32dc-4a38-8af6-acfae3436878",
+            "Value": {
+                "id": "341ac86e-a571-46c9-b0e1-ba8ca48ac06e",
+                "resourcePath": "scripts\\scrShuffleDeck\\scrShuffleDeck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,14 +439,6 @@
             }
         },
         {
-            "Key": "6aff5e10-7cb9-4e74-b845-2541345aa1c9",
-            "Value": {
-                "id": "002adb23-8ffc-4752-aa9f-7c218d6fa487",
-                "resourcePath": "datafiles_yy\\feyCursedPigAI.csv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "6c10084d-01c2-4868-85ee-7f01bfad3ac8",
             "Value": {
                 "id": "e0fdfe55-301c-4083-9ba8-c962d9ebcdfc",
@@ -460,6 +476,14 @@
                 "id": "51fb0b8c-3c39-4e5c-8be7-1859c10db0e0",
                 "resourcePath": "objects\\oGridSpace\\oGridSpace.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7597772c-4c15-480e-b6ac-b20e92ac95ac",
+            "Value": {
+                "id": "8cd63862-1e0a-4e64-b3d3-ab86e338f9b7",
+                "resourcePath": "datafiles_yy\\FeyCursePig.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -671,6 +695,14 @@
             }
         },
         {
+            "Key": "b02898fb-f984-48a6-ae68-6ddaebf4b804",
+            "Value": {
+                "id": "339d9d04-d007-4a49-b7a1-1ddbb762cab2",
+                "resourcePath": "scripts\\scrDrawAI\\scrDrawAI.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b386c794-cb96-4ffc-854f-4384811305e9",
             "Value": {
                 "id": "f676bb02-5565-4f3d-a2cd-dc4cd8150605",
@@ -692,6 +724,14 @@
                 "id": "72a5caba-76c1-47c2-840d-d41ab5795e40",
                 "resourcePath": "views\\b6c785e6-6780-486d-88cc-bdd238bd19a6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b77e385b-b02a-473e-85e3-071937473b63",
+            "Value": {
+                "id": "bcacf67a-f2a5-4dac-9b0c-6e7209de7bd3",
+                "resourcePath": "scripts\\scrAIDeckBuilder\\scrAIDeckBuilder.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -756,14 +796,6 @@
                 "id": "ad38d9d0-58cf-41dd-aa95-a7ca052e4da4",
                 "resourcePath": "objects\\DoneFreeMoving\\DoneFreeMoving.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c1e8b5c6-62de-4bc5-91fe-310fb7afcf75",
-            "Value": {
-                "id": "a155c17c-ca6f-4a55-9dab-de4289000245",
-                "resourcePath": "sprites\\sprite15\\sprite15.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -979,7 +1011,11 @@
         "ba594bcf-d198-4e58-9ca9-d70463857754",
         "0d22e098-f452-4a99-85c5-c26c69f8a98c",
         "0ae44b35-014a-4df8-bef2-28cac883f26f",
-        "fbf39c8d-89b8-4dfc-bb87-982425d43004"
+        "fbf39c8d-89b8-4dfc-bb87-982425d43004",
+        "b77e385b-b02a-473e-85e3-071937473b63",
+        "b02898fb-f984-48a6-ae68-6ddaebf4b804",
+        "3586a7f9-32dc-4a38-8af6-acfae3436878",
+        "157604d9-e36e-4bde-a7b8-c081a2700ffd"
     ],
     "tutorial": ""
 }

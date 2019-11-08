@@ -19,8 +19,6 @@ instance_create_depth(x, y, -9999,oCursor);
 //Load the CSVS!
 global.weapons = load_csv("weapons.csv")
 
-global.EnemyAIMap = ds_map_create();
-global.EnemyAIMap[? monster.FeyCursedPig] = load_csv("feyCursedPigAI.csv");
 //TODO - create these CSV's
 
 //Instantiate the monsters probably

@@ -3,3 +3,4 @@
 image_speed = 0;
 text = "";
 type = -1;
+creator = noone;

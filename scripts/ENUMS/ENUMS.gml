@@ -9,7 +9,8 @@ enum state {
 	monsterTurn,
 	playerStartTurn,
 	win,
-	lose
+	lose,
+	overlay
 }
 
 enum combatType {
@@ -30,4 +31,15 @@ enum weaponStats {
 	toHit = 4,
 	strength = 5,
 	abilityID = 6
+}
+
+enum monsterAI{
+	actionID = 0,
+	attackName = 1,
+	targetScript = 2,
+	spd = 3,
+	accuracy = 4,
+	damage = 5,
+	triggerID = 6,
+	phase = 7
 }

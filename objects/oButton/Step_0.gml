@@ -4,4 +4,7 @@ switch(type){
 	case "Restart":
 		text = "Restart";
 	break;
+	case "Attacked":
+		text = "Accept Fate";
+	break;
 }

@@ -11,11 +11,13 @@ if(global.curState = state.monsterTurn){
 		monsterState = "find target";
 		//This is possibly a start of turn script that needs to exist
 	break;
-	
 	case "begin attack":
+		var cardID = scrDrawAI(aiDeck, aiDiscard);
+		scrAttackPopup(cardID);
+	break;
+	case "attack":
 		var attackCheck = scrAICardAction(attackTarget);
 		scrMonsterAttack(attackCheck);
-		monsterState = "idle";
 	break;
 	case "end attack":
 		attackTimer -= 1;
