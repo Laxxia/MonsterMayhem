@@ -16,7 +16,7 @@ if(	global.curState = state.moving){
 }
 
 if(playerState = "idle"){
-	draw_text(x, y+70, string(global.weapons[# weaponStats.weaponName, currentWeapon]));
+	//draw_text(x, y+70, string(global.weapons[# weaponStats.weaponName, currentWeapon]));
 }
 
 if(shake > 0){
@@ -24,4 +24,5 @@ if(shake > 0){
 	
 } else {
 	draw_self();
+	draw_text(x, y+70, string(endTurn));
 }

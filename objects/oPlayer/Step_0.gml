@@ -78,27 +78,22 @@ switch (playerState) {
                     }
                 }
                 playerState = "end attack";
-                attackTimer = 30;
                 break;
             case "Ranged":
                 break;
         }
         break;
     case "end attack":
-        attackTimer -= 1;
-        if (attackTimer <= 0) {
             if (!playerMove) {
                 global.curPlayer = noone;
                 playerState = "ending Turn"
             } else {
                 playerState = "idle";
             }
-        }
         break
     case "ending turn":
         endTurn = true;
         playerState = "idle";
         scrEndTurnCheck();
         break;
-
 }

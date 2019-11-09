@@ -14,7 +14,7 @@ objectType = combatType.friendly;
 currentTile = noone;
 grabbed = false;
 beenPlaced = false;
-
+endTurn = false;
 //Pathing Variables ------------
 
 movementPath = path_add();
