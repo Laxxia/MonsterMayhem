@@ -2,7 +2,7 @@ var map = global.grid;
 heroList = ds_priority_create();
 with(oPlayer) {
     if (objectType = combatType.friendly) {
-        ds_priority_add(other.heroList, id, point_distance(x, y, other.x, other.y));
+        ds_priority_add(other.heroList, id, point_distance(x, y, other.x + 32, other.y + 32)); //This will be wrong for who is closer on top and bottom and left and right checks
     }
 }
 
@@ -41,6 +41,5 @@ if (targetHero != noone) {
     closestNode.containing = id;
 
     monsterState = "begin path";
-    playerMove = false;
 }
 scrClearNodes();

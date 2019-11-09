@@ -85,15 +85,15 @@ switch (playerState) {
         break;
     case "end attack":
             if (!playerMove) {
-                global.curPlayer = noone;
-                playerState = "ending Turn"
+                playerState = "ending turn"
+				global.curPlayer = noone;
             } else {
                 playerState = "idle";
             }
-        break
+        break;
     case "ending turn":
         endTurn = true;
-        playerState = "idle";
         scrEndTurnCheck();
+		playerState = "idle";
         break;
 }

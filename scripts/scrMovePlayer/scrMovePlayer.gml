@@ -18,6 +18,7 @@ targetPlayer.gridX = tile.gridX;
 targetPlayer.gridY = tile.gridY;
 tile.containing = targetPlayer;
 
+targetPlayer.playerMove = false;
 //Move Player
 targetPlayer.playerState = "begin player path";
 
@@ -25,8 +26,6 @@ targetPlayer.playerState = "begin player path";
 targetPlayer.x = tile.x;
 targetPlayer.y = tile.y;
 */
-
-targetPlayer.playerMove = false;
 scrClearNodes();
 
 
