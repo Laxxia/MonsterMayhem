@@ -3,20 +3,21 @@ var distance = 0;
 heroList = ds_priority_create();
 with(oPlayer) {
     if (objectType = combatType.friendly) {
-        ds_priority_add(other.heroList, id, point_distance(x, y, other.x + 32, other.y + 32));
+        ds_priority_add(other.heroList, id, point_distance(x + 32, y + 32, other.x + 32, other.y + 32));
     }
 }
 
 closestNode = noone;
 while (closestNode = noone) {
+	//When there is an equidistant placement it will always grab the most recent addition to the queue
     targetHero = ds_priority_delete_min(heroList);
 	targetDistance = point_distance(x, y, targetHero.x + 32, targetHero.y + 32);
-
+	
     targetNode = map[# targetHero.gridX, targetHero.gridY];
 
     for (i = 0; i < ds_list_size(targetNode.neighbors); i++) {
         currentNode = ds_list_find_value(targetNode.neighbors, i);
-		distance = point_distance(x, y, currentNode.x + 32, currentNode.y + 32)
+		distance = point_distance(x, y, currentNode.x + 32, currentNode.y + 32);
         if (currentNode.containing = noone && currentNode.passable && distance < targetDistance) {
             closestNode = currentNode;
         }

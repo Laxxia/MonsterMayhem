@@ -11,6 +11,6 @@ for(var i = 1; i < maxheight; i++){
 	}
 }
 for(var j = 0; j < ds_list_size(tempDeck); j++){
-		ds_stack_push(aiDeck, ds_list_find_index(tempDeck, j));
+		ds_stack_push(aiDeck, ds_list_find_value(tempDeck, j));
 }
 ds_list_destroy(tempDeck);

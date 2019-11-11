@@ -6,6 +6,6 @@ while(!ds_stack_empty(deck)){
 		ds_list_shuffle(tempDeck);
 }
 for(var i = 0; i < ds_list_size(tempDeck); i++){
-		ds_stack_push(deck, ds_list_find_index(tempDeck, i));
+		ds_stack_push(deck, ds_list_find_value(tempDeck, i));
 }
 ds_list_destroy(tempDeck); 

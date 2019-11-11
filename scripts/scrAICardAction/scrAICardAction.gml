@@ -8,7 +8,7 @@ var type = aiPool[# monsterAI.type, attackID]
 if(type = "Attack"){
 	var accuracy = aiPool[# monsterAI.accuracy, attackID];
 	var damage = aiPool[# monsterAI.damage, attackID];
-
+//For loop for the speed;
 	var diceRoll = irandom_range(1,10);
 	var woundCheck = "";
 	if(objectType = combatType.friendly){
@@ -27,6 +27,7 @@ if(type = "Attack"){
 	        inst.speed = irandom_range(2, 4);
 	        inst.scale = choose(2, 3);
 	        inst.image_speed = .5;
+		}
 	        if (woundCheck == "crit") {
 	            inst.color = c_yellow;
 	        }
@@ -46,7 +47,6 @@ if(type = "Attack"){
 	            dmg.font = fCrit;
 	            dmg.text = text + "!";
 	        }
-	    }
 	} else {
 	    with(instance_create_depth(attackTarget.x + 60, attackTarget.y + 4, -9998, oDamageText)) {
 	        text = "Miss!";
@@ -54,7 +54,7 @@ if(type = "Attack"){
 	    }
 	}
 } else if (type = "Status"){
-	debug_event("This was a status");
+	scrTriggerScript(attackID, target);
 }
 monsterState = "end attack";
 attackTimer = 30;

@@ -24,10 +24,14 @@ pathSpeed = 8;
 
 //Combat Variables -------------------------
 currentWeapon = -1;
-move = 5; //Max square move distance
-evasion = 0;
-healthPoints = 0;
+status = "Normal";
 attackTarget = noone;
 attackTimer = 0; 
 shake = 0;
 shakeMag = 0;
+
+//Player Stat Variabls
+healthPoints = 5;
+evasion = 0;
+move = 5;  // in squares
+brainHealth = 3;

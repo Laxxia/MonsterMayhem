@@ -15,6 +15,13 @@ if (global.curPlayer = id) {
 }
 
 switch (playerState) {
+	case "start turn":
+	if(status == "Knocked Down"){
+		playerState = "ending turn";
+	} else {
+		playerState = "idle";
+	}
+	break;
     case "begin player path":
         path_start(movementPath, pathSpeed, 0, true);
         playerState = "moving";
@@ -92,8 +99,14 @@ switch (playerState) {
             }
         break;
     case "ending turn":
+		if(status == "Knocked Down"){
+			status = "Normal";
+			playerMove = false;
+			playerAttack = false;
+			image_index = charID -1;
+		}
         endTurn = true;
         scrEndTurnCheck();
-		playerState = "idle";
+		playerState = "start turn";
         break;
 }
