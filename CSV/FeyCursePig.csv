@@ -1,7 +1,7 @@
-actionID,Attack Name,targetScript,speed,accuracy,damage,triggerID,Phase
-0,Basic Action,0,2,2,1,-1,1
-1,Scratch,0,1,2,1,0,1
-2,Claw,0,2,2,1,-1,1
-3,Intimidate,1,-1,-1,-1,1,1
-4,Bat Around,0,2,5,1,2,1
-5,Alert,0,-1,-1,-1,3,2
+actionID,Attack Name,targetScript,speed,accuracy,damage,triggerID,Phase,Type
+1,Basic Action,0,2,2,1,-1,1,Attack
+2,Scratch,0,1,2,1,0,1,Attack
+3,Claw,0,2,2,1,-1,1,Attack
+4,Intimidate,1,-1,-1,-1,1,1,Status
+5,Bat Around,0,2,5,1,2,1,Attack
+6,Alert,0,-1,-1,-1,3,2,Mood

@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "048b43f6-e3a0-435c-bd94-bd0fd083a32c",
+            "Value": {
+                "id": "bdd9900f-bc18-47c8-87e1-1551d101a042",
+                "resourcePath": "scripts\\scrClosestTarget\\scrClosestTarget.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07b3b875-7c1a-4e43-8d9a-28e7c27b07e4",
             "Value": {
                 "id": "e152f8ff-b9b5-4a87-85ce-4c0a00b8d9a7",
@@ -91,14 +99,6 @@
             "Value": {
                 "id": "142e12b3-5eac-46f6-a5ff-ee48ecc7876f",
                 "resourcePath": "scripts\\scrCombatCheck\\scrCombatCheck.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "0ae44b35-014a-4df8-bef2-28cac883f26f",
-            "Value": {
-                "id": "1d7c4eca-302f-4106-bf2c-b7ad44369d9e",
-                "resourcePath": "scripts\\scrMonsterAttack\\scrMonsterAttack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -479,14 +479,6 @@
             }
         },
         {
-            "Key": "7597772c-4c15-480e-b6ac-b20e92ac95ac",
-            "Value": {
-                "id": "8cd63862-1e0a-4e64-b3d3-ab86e338f9b7",
-                "resourcePath": "datafiles_yy\\FeyCursePig.csv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "75f58607-f35f-40ca-8f6e-98de0488ea67",
             "Value": {
                 "id": "84ed7e97-09f6-48ed-b2c2-e8c8b0f5869a",
@@ -500,6 +492,14 @@
                 "id": "870997b3-a1b8-4c24-8638-43333575f1c8",
                 "resourcePath": "views\\76e0e88c-3fd7-467f-87c4-b61a4ce28549.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7941b5fe-a95c-42b5-8b11-f0367e1f05e7",
+            "Value": {
+                "id": "16505137-3db9-401c-af6f-2698ea8c73ee",
+                "resourcePath": "scripts\\scrRandomTarget\\scrRandomTarget.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -556,6 +556,14 @@
                 "id": "c4f60ef3-3705-42db-9460-8c3727308329",
                 "resourcePath": "objects\\oSurvivorFour\\oSurvivorFour.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90c7d099-e3e7-484b-bcf9-7042125ad34a",
+            "Value": {
+                "id": "d687edaf-3ddb-4fbd-98f5-c1732af70856",
+                "resourcePath": "scripts\\scrMonsterTarget\\scrMonsterTarget.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -799,6 +807,14 @@
             }
         },
         {
+            "Key": "c08cd79b-a385-488a-a276-f9d1cdc55ffa",
+            "Value": {
+                "id": "89df7124-4796-4e9d-94ff-2af66387f177",
+                "resourcePath": "datafiles_yy\\FeyCursePig.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "c324b776-bf96-47c7-a35e-e5d262acba56",
             "Value": {
                 "id": "5f11a340-c299-48e4-b6a5-e320150df75e",
@@ -1010,12 +1026,14 @@
         "7ebc75e1-34e5-48d7-8b80-acc79648d511",
         "ba594bcf-d198-4e58-9ca9-d70463857754",
         "0d22e098-f452-4a99-85c5-c26c69f8a98c",
-        "0ae44b35-014a-4df8-bef2-28cac883f26f",
         "fbf39c8d-89b8-4dfc-bb87-982425d43004",
         "b77e385b-b02a-473e-85e3-071937473b63",
         "b02898fb-f984-48a6-ae68-6ddaebf4b804",
         "3586a7f9-32dc-4a38-8af6-acfae3436878",
-        "157604d9-e36e-4bde-a7b8-c081a2700ffd"
+        "157604d9-e36e-4bde-a7b8-c081a2700ffd",
+        "90c7d099-e3e7-484b-bcf9-7042125ad34a",
+        "048b43f6-e3a0-435c-bd94-bd0fd083a32c",
+        "7941b5fe-a95c-42b5-8b11-f0367e1f05e7"
     ],
     "tutorial": ""
 }

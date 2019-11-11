@@ -41,5 +41,6 @@ enum monsterAI{
 	accuracy = 4,
 	damage = 5,
 	triggerID = 6,
-	phase = 7
+	phase = 7,
+	type = 8
 }

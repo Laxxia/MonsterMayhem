@@ -13,5 +13,5 @@ objectType = combatType.monster;
 monsterID = -1;
 aiDeck = ds_stack_create();
 aiDiscard = ds_stack_create();
-
+currentAttack = -1;
 pressed = false;

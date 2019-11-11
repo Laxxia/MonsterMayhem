@@ -1,8 +1,8 @@
 {
-    "id": "0ae44b35-014a-4df8-bef2-28cac883f26f",
+    "id": "048b43f6-e3a0-435c-bd94-bd0fd083a32c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrMonsterAttack",
+    "name": "scrClosestTarget",
     "IsCompatibility": false,
     "IsDnD": false
 }

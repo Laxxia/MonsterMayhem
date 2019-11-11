@@ -14,9 +14,7 @@ switch(type){
 	case "monster attack":
 		var target = creator.attackTarget;
 		text[0] = string(target) + " is being Attacked!";
-		text[1] = "The monster uses " + string(creator.aiPool[# monsterAI.attackName, eventID + 1]);
-		//create a button
-		//That button will be set to push the mosnter state to the attack phase becasue you are accepting it
+		text[1] = "The monster uses " + string(creator.aiPool[# monsterAI.attackName, eventID]);
 		//To DO - set it so you can choose to act at this time.
 		//Debug note, also create a click on the monster, be able to see their entire action deck at any moment.
 		var inst = instance_create_layer(x, y, "UIInteracts", oButton);

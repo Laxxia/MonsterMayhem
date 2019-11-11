@@ -8,16 +8,33 @@ if(global.curState = state.monsterTurn){
 	case "turn start":
 		playerAttack = true;
 		playerMove = true;
-		monsterState = "find target";
+		monsterState = "draw card";
 		//This is possibly a start of turn script that needs to exist
 	break;
+	case "draw card":
+		currentAttack = scrDrawAI(aiDeck, aiDiscard);
+		// a place to act for players possibly
+		monsterState = "card action";
+	break;
+	case "card action":
+		switch(aiPool[# monsterAI.type, currentAttack]){
+			case "Attack":
+			monsterState = "find target";
+			break;
+			case "Mood":
+				monsterState = "idle"; // add moods later
+			break;
+			case "Status":
+			monsterState = "find target";
+			break;
+		}
+	break;
 	case "begin attack":
-		var cardID = scrDrawAI(aiDeck, aiDiscard);
-		scrAttackPopup(cardID);
+		scrAttackPopup(currentAttack);
 	break;
 	case "attack":
-		var attackCheck = scrAICardAction(attackTarget);
-		scrMonsterAttack(attackCheck);
+		scrAICardAction(currentAttack, attackTarget);
+		currentAttack = -1;
 	break;
 	case "end attack":
 		attackTimer -= 1;
@@ -26,7 +43,7 @@ if(global.curState = state.monsterTurn){
 		}
 	break;
 	case"find target":
-		scrFindTarget();
+		scrFindTarget(currentAttack); // closest target
 	break;
 	case "find move node":
 		scrFindMoveNode();
