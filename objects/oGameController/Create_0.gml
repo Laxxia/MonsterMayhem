@@ -19,7 +19,6 @@ instance_create_depth(x, y, -9999,oCursor);
 //Load the CSVS!
 global.weapons = load_csv("weapons.csv")
 
-//TODO - create these CSV's
 
 //Instantiate the monsters probably
 monsters = [monster.defaultMon, monster.FeyCursedPig];
@@ -27,4 +26,4 @@ monsters = [monster.defaultMon, monster.FeyCursedPig];
 //Menu Props
 global.menuSelected = false;
 global.characterInventory = [-1, -1, -1, -1];
-selectedMonster = -1; //TODO - when the transition occurs to the arena, call and build the AI deck from this variable
+selectedMonster = -1;
