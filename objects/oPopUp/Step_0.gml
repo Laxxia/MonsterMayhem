@@ -47,8 +47,8 @@ switch(type){
 		text[1] = "Oh No!";
 		text[2] =  "One of ytour boys has perished!";
 		var inst = instance_create_layer(x, y, "UIInteracts", oButton);
-		//inst.image_xscale = 2;
-		//inst.image_yscale = 2;
+		inst.image_xscale = 1.5;
+		//inst.image_yscale = 1.5;
 		inst.x = x + (sprite_width/2 - inst.sprite_width/2);
 		inst.y = y + (sprite_height/2)
 		inst.type = "Death";		
