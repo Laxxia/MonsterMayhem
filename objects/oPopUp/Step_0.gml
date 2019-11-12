@@ -28,6 +28,35 @@ switch(type){
 		buttonCount ++;
 		type = "Complete";
 	break;
+	case "Loss":
+		text[0] =  "The survivors have lost";
+		var inst = instance_create_layer(x, y, "UIInteracts", oButton);
+		//inst.image_xscale = 2;
+		//inst.image_yscale = 2;
+		inst.x = x + (sprite_width/2 - inst.sprite_width/2);
+		inst.y = y + (sprite_height/2)
+		inst.type = "Restart";		
+		buttons[0] = inst;
+		buttonCount ++;
+		type = "Complete";
+	break;
+	
+	case "Death":
+	//If a character dies but there are still players on the board
+		text[0] = "Event Occurence";
+		text[1] = "Oh No!";
+		text[2] =  "One of ytour boys has perished!";
+		var inst = instance_create_layer(x, y, "UIInteracts", oButton);
+		//inst.image_xscale = 2;
+		//inst.image_yscale = 2;
+		inst.x = x + (sprite_width/2 - inst.sprite_width/2);
+		inst.y = y + (sprite_height/2)
+		inst.type = "Death";		
+		buttons[0] = inst;
+		buttonCount ++;
+		type = "Complete";
+	break;
+	
 	case "Complete":
 	break;
 }

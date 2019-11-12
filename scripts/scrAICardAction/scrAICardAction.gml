@@ -6,8 +6,8 @@ var spd = aiPool[# monsterAI.spd, attackID];
 var type = aiPool[# monsterAI.type, attackID]
 
 if(type = "Attack"){
-	var accuracy = aiPool[# monsterAI.accuracy, attackID];
-	var damage = aiPool[# monsterAI.damage, attackID];
+	var accuracy = real(aiPool[# monsterAI.accuracy, attackID]);
+	var damage = real(aiPool[# monsterAI.damage, attackID]);
 //For loop for the speed;
 	var diceRoll = irandom_range(1,10);
 	var woundCheck = "";

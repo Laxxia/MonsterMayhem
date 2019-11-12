@@ -7,4 +7,7 @@ switch(type){
 	case "Attacked":
 		text = "Accept Fate";
 	break;
+	case "Death":
+		text = "Lament the Loss";
+	break;
 }

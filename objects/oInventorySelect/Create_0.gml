@@ -11,7 +11,6 @@ var yy = 64
 var row = 0;
 for(var i = 1; i < ds_grid_height(global.weapons); i++){
 	var xi = 96*((i-1)%4);
-	var yi = 96*(i-1);
 	var inst = instance_create_depth(x + (xx + xi),y + (yy+ row * 96), -9000, oWeapon);
 	inst.WID = i;
 	inst.image_index = i-1;

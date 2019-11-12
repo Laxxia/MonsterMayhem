@@ -6,9 +6,9 @@ if(global.curState = state.playerTurn && (playerMove || playerAttack) && global.
 	scrActionMenu();
 }
 
-if(global.curState = state.freeMovement && !global.holding){
+if(global.curState = state.freeMovement && !oCursor.holding){
 	grabbed = true;
-	global.holding = true;
+	oCursor.holding = true;
 }
 if(grabbed && global.curState = state.freeMovement){
 	scrFreePlace();

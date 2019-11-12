@@ -20,9 +20,6 @@ switch(global.curState){
 	break;
 	case state.playerTurn:
 	break;
-	case state.attacking:
-	//Fix this later
-	break;
 	case state.win:
 		scrWinState();
 	break;

@@ -10,7 +10,7 @@ switch(monsterID){
 		monsterName = "Fey Cursed Pig";
 		move = 6;
 		toughness = 8;
-		healthPoints = 2;
+		healthPoints = 10;
 		triggerScripts = [-1, scrIntimidate, -1];
 	break;
 }

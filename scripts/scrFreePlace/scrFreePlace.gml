@@ -11,7 +11,7 @@ if(place_meeting(oCursor.x,oCursor.y,oMapTile)){
 		gridX = currentTile.gridX;
 		gridY = currentTile.gridY; 
 		grabbed = false;
-		global.holding = false;
+		oCursor.holding = false;
 		if(beenPlaced){
 			tempTile.containing = noone;
 		}

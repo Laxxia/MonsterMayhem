@@ -1,6 +1,4 @@
 enum state {
-	placing,
-	attacking,
 	moving,
 	idle,
 	combatStart,

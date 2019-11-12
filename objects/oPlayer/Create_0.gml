@@ -31,7 +31,7 @@ shake = 0;
 shakeMag = 0;
 
 //Player Stat Variabls
-healthPoints = 5;
+healthPoints = 2;
 evasion = 0;
 move = 5;  // in squares
 brainHealth = 3;

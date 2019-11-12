@@ -12,12 +12,12 @@ global.debug = false;
 global.curState = state.idle;
 global.curPlayer = noone;
 global.survivorList[0] = -1;
-global.holding = false;
+global.tempState = global.curState;
 
 instance_create_depth(x, y, -9999,oCursor);
 
 //Load the CSVS!
-global.weapons = load_csv("weapons.csv")
+global.weapons = load_csv("weapons.csv") // Weapon Look UP Table
 
 
 //Instantiate the monsters probably
@@ -27,3 +27,4 @@ monsters = [monster.defaultMon, monster.FeyCursedPig];
 global.menuSelected = false;
 global.characterInventory = [-1, -1, -1, -1];
 selectedMonster = -1;
+remainingSurvivors = 0;

@@ -10,4 +10,7 @@ switch(type){
 		creator.monsterState = "attack";
 		global.curState = state.monsterTurn;
 	break;
+	case "Death":
+		global.curState = global.tempState;
+	break;
 }
