@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "16348e1e-26d1-4cca-95f4-043b248fbb43",
+            "Value": {
+                "id": "8f83bc61-13a6-40ee-8646-be25649d3078",
+                "resourcePath": "fonts\\fButton\\fButton.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "1d3b56c0-bf29-4620-bfbf-78177f6b3bac",
             "Value": {
                 "id": "ee823845-1b91-4b64-a723-7ba392bfb2ac",
@@ -172,14 +180,6 @@
                 "id": "4e5e3959-2fdf-4ef8-ac7d-533a6236d603",
                 "resourcePath": "views\\1e0bd60c-c71a-4cae-b8ba-6b5d5ad6a11c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "26033bd0-4aa6-44c1-bd38-696850afb7be",
-            "Value": {
-                "id": "730c9a9a-fc6d-41f1-8c2a-1f0544192d35",
-                "resourcePath": "objects\\oEndTurn\\oEndTurn.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "657e47df-b64b-4845-b196-0fc46540a7b0",
+            "Value": {
+                "id": "0ef2fa86-477b-4295-bc82-c1645fa5e126",
+                "resourcePath": "fonts\\fPopUP\\fPopUP.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "675875fc-60a6-48f3-a223-ee69a9b52667",
             "Value": {
                 "id": "56db410c-e0db-46ec-8351-fb34e9caa844",
@@ -451,14 +459,6 @@
             "Value": {
                 "id": "232759a3-c680-45d3-b46e-8f85b95be8e9",
                 "resourcePath": "objects\\oNextRoom\\oNextRoom.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6c10084d-01c2-4868-85ee-7f01bfad3ac8",
-            "Value": {
-                "id": "e0fdfe55-301c-4083-9ba8-c962d9ebcdfc",
-                "resourcePath": "objects\\oAttackButton\\oAttackButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "8a2e0614-b588-416f-b263-abd59917392e",
+            "Value": {
+                "id": "a1fb8aa8-d253-40d7-ab13-844f94d05608",
+                "resourcePath": "objects\\oSmButton\\oSmButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90c7d099-e3e7-484b-bcf9-7042125ad34a",
             "Value": {
                 "id": "d687edaf-3ddb-4fbd-98f5-c1732af70856",
@@ -700,6 +708,14 @@
                 "id": "a5bc2a57-7ddf-4c7e-9f29-6ce121dd9e0a",
                 "resourcePath": "scripts\\scrColorMoveNodes\\scrColorMoveNodes.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a8913e53-e326-4bea-9f5f-146b033fcef8",
+            "Value": {
+                "id": "9c3eefba-6049-4088-b18b-df4b3c745ae1",
+                "resourcePath": "sprites\\sSmolButton\\sSmolButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,14 +927,6 @@
             }
         },
         {
-            "Key": "d526638e-e470-4a64-82fe-6a3ad308bc7d",
-            "Value": {
-                "id": "504fa811-47f6-490a-a0a5-62e6f1b0eacc",
-                "resourcePath": "objects\\oMoveButton\\oMoveButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d5e83946-2f8f-4499-aa3e-3f0ffa40a432",
             "Value": {
                 "id": "1fe2160c-e3d5-4865-a640-588f9aaa54df",
@@ -980,6 +988,14 @@
                 "id": "d8f33f24-9c74-440b-bc85-ac29d6199b9d",
                 "resourcePath": "sprites\\sActionBar\\sActionBar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8a599ca-5125-4a31-b9b2-0b21bde9cb5f",
+            "Value": {
+                "id": "bb3a9790-bbb1-4ca1-a5f9-8c2a3796665d",
+                "resourcePath": "scripts\\scrKnockedDown\\scrKnockedDown.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1076,7 +1092,8 @@
         "fbf39c8d-89b8-4dfc-bb87-982425d43004",
         "157604d9-e36e-4bde-a7b8-c081a2700ffd",
         "be39a1a2-2628-4fdb-a62a-089fea906f07",
-        "62e5e861-a446-4e61-8ab6-5dc818e4cf0b"
+        "62e5e861-a446-4e61-8ab6-5dc818e4cf0b",
+        "e8a599ca-5125-4a31-b9b2-0b21bde9cb5f"
     ],
     "tutorial": ""
 }

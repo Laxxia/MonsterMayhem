@@ -10,4 +10,7 @@ switch(type){
 	case "Death":
 		text = "Lament the Loss";
 	break;
+	case "Next Room":
+		text = "Next Room";
+	break;
 }

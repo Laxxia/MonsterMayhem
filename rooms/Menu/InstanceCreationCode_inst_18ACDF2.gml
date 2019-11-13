@@ -1,0 +1,1 @@
+type = "Next Room";

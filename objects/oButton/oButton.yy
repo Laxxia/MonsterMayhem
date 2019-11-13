@@ -71,7 +71,27 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "2f6f7e70-fc89-4f66-8711-41b4d3b69c15",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"Next Room\"",
+                "\"Death\"",
+                "\"Attacked\"",
+                "\"Restart\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Next Room\"",
+            "varName": "type",
+            "varType": 6
+        }
+    ],
     "solid": false,
     "spriteId": "5ca918f4-7d04-44fa-bcc2-820061f970b6",
     "visible": true

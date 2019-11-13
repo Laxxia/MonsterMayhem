@@ -13,4 +13,7 @@ switch(type){
 	case "Death":
 		global.curState = global.tempState;
 	break;
+	case "Next Room":
+		room = combatArena; //Make this better
+	break;
 }
