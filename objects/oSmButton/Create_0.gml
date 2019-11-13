@@ -7,3 +7,4 @@ creator = noone;
 targetPlayer = noone;
 enabled = false;
 targetMonster = noone;
+idPointer = noone;

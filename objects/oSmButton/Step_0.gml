@@ -20,6 +20,9 @@ switch(type){
 		enabled = true;
 		text = "Start Fight";
 	break;
+	case "Inventory Accept":
+		text = "Accept";
+	break;
 }
 
 if(!enabled){

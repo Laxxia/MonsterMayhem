@@ -21,8 +21,12 @@ for(var i = 1; i < ds_grid_height(global.weapons); i++){
 	}
 }
 
-var button = instance_create_depth(x+320, y+256, -9000, oAccept);
+var button = instance_create_depth(x+280, y+256, -9000, oSmButton);
 button.idPointer = id;
+button.image_yscale = .75
+button.image_xscale = .75
+button.type = "Inventory Accept";
+button.enabled = true;
 buttons[buttonCount] = button;
 buttonCount ++;
 

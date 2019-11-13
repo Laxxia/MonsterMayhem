@@ -5,7 +5,9 @@ var temp = noone;
 		var neighbor = ds_list_find_value(current.neighbors, i);
 		if(temp == noone){
 			if(neighbor.containing != noone){
-				temp = neighbor.containing;
+				if(neighbor.containing.objectType == combatType.monster){
+					temp = neighbor.containing;
+				}
 			}
 		} else {return(temp);};
 	}
