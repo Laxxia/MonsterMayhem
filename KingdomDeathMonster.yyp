@@ -647,14 +647,6 @@
             }
         },
         {
-            "Key": "9950dff4-ebda-4ff7-9f77-8e21bcc8e224",
-            "Value": {
-                "id": "caeed383-7548-48a3-a34c-7707e7c4ae28",
-                "resourcePath": "objects\\oAccept\\oAccept.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9a43e223-1212-42ed-a9a1-9dbfa49e6f24",
             "Value": {
                 "id": "1953252a-df18-4652-89cf-eafd3a5a5016",
