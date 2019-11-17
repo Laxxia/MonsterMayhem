@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!global.menuSelected){
+if(global.curState != state.menu){
 	scrMonsterSelect(id);
-	global.menuSelected = true;
+	global.curState = state.menu
 }

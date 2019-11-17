@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_self();
 if(charID != -1){
-	if( global.characterInventory[charID] != -1){
-		draw_text(x, y+70, string(global.weapons[# 1, global.characterInventory[charID]]));
+	if( global.characterInventory[# charID, charStats.weaponID] != -1){
+		draw_text(x, y+70, string(global.weapons[# 1, global.characterInventory[# charID, charStats.weaponID]]));
 	}
 }

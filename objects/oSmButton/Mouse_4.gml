@@ -36,7 +36,7 @@ switch(type){
 		}
 	break;
 	case "Inventory Accept":
-		global.menuSelected = false;
+		global.curState = state.idle;
 		idPointer.finished = true;
 	break;
 }

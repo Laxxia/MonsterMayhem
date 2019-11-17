@@ -25,6 +25,7 @@ monsters = [monster.defaultMon, monster.FeyCursedPig];
 
 //Menu Props
 global.menuSelected = false;
-global.characterInventory = [-1, -1, -1, -1];
 selectedMonster = -1;
 remainingSurvivors = 0;
+
+global.characterInventory = ds_grid_create(4,7);

@@ -16,5 +16,5 @@ for(var i = 0; i<4; i++){
 		inst = instance_create_layer(xx, yy, "Instances", oSurvivorFour);
 		break;
 	}
-	inst.currentWeapon = global.characterInventory[i]
+	inst.currentWeapon = global.characterInventory[# i, charStats.weaponID];
 }

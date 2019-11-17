@@ -10,13 +10,14 @@
 /*
 
 -Full Player Stats/Armor
+	-Currently happening
+	BIG THING -- Nameable characters; //But also this is the first new system implemented since attacks
+
 -Still not sure how I want to do this? KDM or Health Marks
 
-Player Equipment - Other than just weapons
-	- Fix the UI First
-	- More generalized inventory picker
+-Monster Damage done with VATS hitzones, then hit locations in those hitzones, effects on those hitlocations
+   - X damage to Y Zones = kill
 
-BIG THING -- Nameable characters; //But also this is the first new system implemented since attacks
 
 #endregion
 

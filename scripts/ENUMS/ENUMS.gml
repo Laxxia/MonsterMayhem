@@ -8,7 +8,19 @@ enum state {
 	playerStartTurn,
 	win,
 	lose,
-	overlay
+	overlay,
+	menu
+}
+
+enum charStats {
+	name = 0,
+	weaponID = 1,
+	helmet = 2,
+	chest = 3,
+	arms = 4,
+	legs = 5,
+	boots = 6
+	
 }
 
 enum combatType {
