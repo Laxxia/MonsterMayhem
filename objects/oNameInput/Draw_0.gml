@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-if(oInventorySelect.selected = WID){
-	draw_sprite(sSelected, -1, x, y);
-}
+draw_set_color(c_black);
+draw_text(x + 3,y + 4,text);

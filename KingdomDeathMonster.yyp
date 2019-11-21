@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0e9400c2-a4f3-4ac8-8fdf-4415d3c4e1d0",
+            "Value": {
+                "id": "b4ab457c-ce10-47ee-a880-5c4e68132bc7",
+                "resourcePath": "sprites\\sInputText\\sInputText.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1475ff7b-0a47-4452-8c28-4369cf515cd6",
             "Value": {
                 "id": "f068b46e-2729-4bf5-b6a8-e9e1868b6600",
@@ -164,6 +172,14 @@
                 "id": "8f83bc61-13a6-40ee-8646-be25649d3078",
                 "resourcePath": "fonts\\fButton\\fButton.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "16a70650-7987-41a5-8d2e-56cbc0cf4124",
+            "Value": {
+                "id": "326a8c26-7ec0-4603-91ea-86e66a1a0159",
+                "resourcePath": "scripts\\scrPopulate\\scrPopulate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -252,6 +268,14 @@
                 "id": "1d2a97fe-5147-4805-a961-0d5768f16741",
                 "resourcePath": "sprites\\spr_guide\\spr_guide.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "34352dd6-0402-48e2-b0de-c9da5a6b1e19",
+            "Value": {
+                "id": "4dc633b0-ee83-4aa9-a666-44a9a531b50a",
+                "resourcePath": "objects\\oNameInput\\oNameInput.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -623,6 +647,14 @@
             }
         },
         {
+            "Key": "9423abdb-310b-4f9d-bff5-600f717b3d46",
+            "Value": {
+                "id": "78028495-fd2f-47e6-a391-8b47f4822c1a",
+                "resourcePath": "sprites\\sInventoryFillers\\sInventoryFillers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94b9f4ca-4a09-4231-bfad-71442ace5e0b",
             "Value": {
                 "id": "7fc82607-1eaa-422a-8bce-de6c30541be4",
@@ -764,6 +796,14 @@
                 "id": "3a90ad00-24cb-458d-9b04-024344309d64",
                 "resourcePath": "rooms\\combatArena\\combatArena.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b66ac539-05e5-4963-be5e-bc09f9545422",
+            "Value": {
+                "id": "f7f6fcc5-0065-407f-a309-4f5fa8f56bfe",
+                "resourcePath": "objects\\oInventoryOptions\\oInventoryOptions.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1085,7 +1125,8 @@
         "157604d9-e36e-4bde-a7b8-c081a2700ffd",
         "be39a1a2-2628-4fdb-a62a-089fea906f07",
         "62e5e861-a446-4e61-8ab6-5dc818e4cf0b",
-        "e8a599ca-5125-4a31-b9b2-0b21bde9cb5f"
+        "e8a599ca-5125-4a31-b9b2-0b21bde9cb5f",
+        "16a70650-7987-41a5-8d2e-56cbc0cf4124"
     ],
     "tutorial": ""
 }
