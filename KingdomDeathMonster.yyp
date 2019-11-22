@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "383facec-9b3b-4076-a129-034a22b59f64",
+            "Value": {
+                "id": "4472ddce-7585-45b2-add6-82eaa9a5ec8b",
+                "resourcePath": "objects\\oCheckMark\\oCheckMark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3f8fd33e-5373-4272-a34f-ee0bc1b3635c",
             "Value": {
                 "id": "c900a891-ab28-4108-8c4a-08d7e3d71e5b",
@@ -764,6 +772,14 @@
                 "id": "67c620e4-a51a-4b04-acf9-1cf30676c130",
                 "resourcePath": "scripts\\scrCreatePath\\scrCreatePath.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ac4b00ac-ed7b-43fa-a793-3e4916c14cf2",
+            "Value": {
+                "id": "d6a9f12b-0d9c-4508-80eb-ad8788ed7e25",
+                "resourcePath": "sprites\\sCheckMark\\sCheckMark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
