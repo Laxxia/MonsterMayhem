@@ -23,6 +23,7 @@ if(global.curState == state.playerTurn){
 			playerState = "ending turn";
 		} else {
 			playerState = "idle";
+			image_index = charID -1;
 		}
 		break;
 	    case "begin player path":
@@ -75,7 +76,6 @@ if(global.curState == state.playerTurn){
 				status = "Normal";
 				playerMove = false;
 				playerAttack = false;
-				image_index = charID -1;
 			}
 	        endTurn = true;
 	        scrEndTurnCheck();

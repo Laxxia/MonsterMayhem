@@ -23,6 +23,9 @@ switch(type){
 	case "Inventory Accept":
 		text = "Accept";
 	break;
+	case "Character Create":
+		text = "Submit";
+	break;
 }
 
 if(!enabled){

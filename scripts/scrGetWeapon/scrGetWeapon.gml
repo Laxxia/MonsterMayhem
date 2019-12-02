@@ -1,0 +1,1 @@
+return global.weapons[# 1, argument0];

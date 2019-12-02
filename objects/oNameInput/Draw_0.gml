@@ -3,3 +3,4 @@
 draw_self();
 draw_set_color(c_black);
 draw_text(x + 3,y + 4,text);
+draw_set_color(c_white);

@@ -20,8 +20,9 @@ enum charStats {
 	arms = 4,
 	legs = 5,
 	boots = 6
-	
-}
+}	
+
+
 
 enum combatType {
 	friendly,

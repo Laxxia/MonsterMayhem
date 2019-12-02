@@ -39,4 +39,8 @@ switch(type){
 		global.curState = state.idle;
 		idPointer.finished = true;
 	break;
+	case "Character Create":
+		global.curState = state.idle;
+		idPointer.submit = true;
+	break;
 }

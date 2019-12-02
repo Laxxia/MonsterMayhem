@@ -5,6 +5,8 @@ finished = false;
 buttons = [];
 buttonCount = 0;
 selected = -1;
+creator = noone;
+type = -1;
 
 var xx = 32
 var yy = 64
