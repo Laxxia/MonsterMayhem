@@ -11,6 +11,7 @@ switch(monsterID){
 		move = 6;
 		toughness = 8;
 		healthPoints = 10;
+		hitLocations = 5;
 		triggerScripts = [-1, scrIntimidate, -1];
 	break;
 }

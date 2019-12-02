@@ -31,19 +31,22 @@ if(global.curState == state.playerTurn){
 	        playerState = "moving";
 	        global.curPlayer = noone;
 	        break;
-	    case "begin attack":
+	    case "hit choice":
+			scrHitLocation();
+			hitChance = -1;
+		break;
+		case "begin attack":
 	        //this would set up before attack animation
 	        attackTimer -= 1;
 	        if (attackTimer <= 0) {
 	            playerState = "attacking";
 	        }
 	        break;
-
 	    case "attacking":
 	        //a for loop here where speed is the max for loop count
 	        playerAttack = false;
 	        if (attackTarget != noone) {
-	            var attackCheck = scrHitCheck(currentWeapon);
+	            var attackCheck = scrHitCheck(currentWeapon, hitChance);
 	            var woundCheck = 0;
 	            if (attackCheck > 0) {
 	                woundCheck = scrToWound(currentWeapon, attackTarget, attackCheck); // TO DO  - count crits

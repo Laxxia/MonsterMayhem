@@ -21,7 +21,7 @@ targetPlayer = global.curPlayer;
 	if(!targetPlayer.playerAttack){buttons[buttonCount].enabled = false;}
 	buttons[buttonCount].type = "Player Attack";
 	buttonCount ++;
-buttons[buttonCount] = instance_create_depth(x+(sprite_width * 2/3.5), y + 550, -y, oSmButton);
+buttons[buttonCount] = instance_create_depth(x+(sprite_width * 2/3.5), y + 325, -y, oSmButton);
 buttons[buttonCount].type = "End Turn";
 buttons[buttonCount].enabled = true;
 buttonCount ++;
