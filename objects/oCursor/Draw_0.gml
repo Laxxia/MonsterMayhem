@@ -7,7 +7,6 @@ if(room = combatArena){
 		}
 	}
 }
-	draw_self();
 if(room = combatArena){
 	if(hoverNode != noone){
 		tempText = string(gridX) + " / " + string(gridY);

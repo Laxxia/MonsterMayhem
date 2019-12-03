@@ -24,3 +24,16 @@ switch(global.curState){
 		scrWinState();
 	break;
 }
+
+if(menu_open) exit;
+
+//Open DisplayMenu
+if(mouse_check_button_pressed(mb_left)) 
+{
+	var _menu_layer=layer_get_id("MonsterTest");
+	with(_ui_parent)
+	{
+		ui_element_toggle_active(layer == _menu_layer);
+	}
+	menu_open=true;
+}

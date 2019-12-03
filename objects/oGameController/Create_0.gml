@@ -14,7 +14,7 @@ global.curPlayer = noone;
 global.survivorList[0] = -1;
 global.tempState = global.curState;
 
-instance_create_depth(x, y, -9999,oCursor);
+instance_create_layer(x, y, "Mouse", oCursor);
 
 //Load the CSVS!
 global.weapons = load_csv("weapons.csv") // Weapon Look UP Table
@@ -29,3 +29,4 @@ selectedMonster = -1;
 remainingSurvivors = 0;
 
 global.characterInventory = ds_grid_create(4,7);
+menu_open = false;
