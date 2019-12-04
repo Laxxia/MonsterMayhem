@@ -89,23 +89,6 @@
             "value": "noone",
             "varName": "script",
             "varType": 0
-        },
-        {
-            "id": "eff4a1eb-17bc-418d-a8a9-29f862584fdc",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": [
-                "VisualState.active",
-                "VisualState.inactive"
-            ],
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "VisualState.active",
-            "varName": "visualState",
-            "varType": 6
         }
     ],
     "solid": false,

@@ -15,6 +15,7 @@ enum VisualState
 	inactive,
 	activating
 }
+visualState = VisualState.inactive;
 
 length=15;
 timer=length;
@@ -22,6 +23,7 @@ activate_ease=TwerpType.out_back;
 deactivate_ease=TwerpType.in_back;
 active_pos=[0,0];
 inactive_offset=[0,0];
+argArray= [];
 #endregion
 
 //Update Position

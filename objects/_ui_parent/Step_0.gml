@@ -60,10 +60,6 @@ if(script != noone && position_meeting(mouse_gui_x,mouse_gui_y,id))
 {	//Moused Over with an existing script
 	if(mouse_check_button_pressed(mb_left))
 	{	//Left button is being pressed
-		script_execute(script);		
-	}
-	if(mouse_check_button_pressed(mb_right))
-	{
-		visualState = VisualState.inactive;
+		scrExecuteAlt(script, argArray);	
 	}
 }

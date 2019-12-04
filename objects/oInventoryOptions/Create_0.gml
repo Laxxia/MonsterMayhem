@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-player = noone;
-image_speed = 0;
-menuID = noone;
+
+// Inherit the parent event
+event_inherited();
+
+active_pos = [xstart,ystart];
+inactive_offset=[0,-200];

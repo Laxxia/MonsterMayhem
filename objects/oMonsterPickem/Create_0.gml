@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
-inactive_offset=[0,-800];
+active_pos = [xstart,ystart];
+inactive_offset=[0,-200];

@@ -8,7 +8,7 @@
         "37ee5882-10dd-4162-9cdb-34946c9196af"
     ],
     "filterType": "GMObject",
-    "folderName": "SandboxMenu Stuff",
+    "folderName": "Menu UI",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -24,9 +24,9 @@ global.weapons = load_csv("weapons.csv") // Weapon Look UP Table
 monsters = [monster.defaultMon, monster.FeyCursedPig];
 
 //Menu Props
-global.menuSelected = false;
 selectedMonster = -1;
 remainingSurvivors = 0;
 
 global.characterInventory = ds_grid_create(4,7);
+ds_grid_clear(global.characterInventory, -1);
 menu_open = false;

@@ -1,7 +1,7 @@
 /// @arg active
 var _active = argument0;
 
-if(!_active && visualState != VisualState.inactive)
+if(_active && visualState != VisualState.inactive)
 {
 	timer=0;
 	visualState = VisualState.deactivating;

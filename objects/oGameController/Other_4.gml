@@ -5,6 +5,11 @@ if(room = combatArena){
 }
 
 if(room = Menu){
-	scrMenuCreate();
+	var _ui_layer=layer_get_id("Buttons");
+	with(_ui_parent)
+	{
+		ui_element_toggle_active(layer == _ui_layer);
+		timer=length;
+	}
 }
 

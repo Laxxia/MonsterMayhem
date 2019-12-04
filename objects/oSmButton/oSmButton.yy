@@ -15,59 +15,19 @@
             "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
         },
         {
-            "id": "c71e30a7-8904-4bea-befd-d74c3673551d",
+            "id": "7d711144-c900-4ca9-aa0f-33e0345cbfcc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
-        },
-        {
-            "id": "000c415c-c22d-4088-acac-1968b161da50",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
-            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
-        },
-        {
-            "id": "fe0dec8a-cf6c-4204-84f9-271966b40592",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
-        },
-        {
-            "id": "4c0d0923-e64a-4681-bc0b-1f2d300f3a49",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
-        },
-        {
-            "id": "38156f88-035b-45ae-8590-2bae8bff6f87",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
             "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "f3b134ab-0d99-489e-9535-bd5df6789c79",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -87,7 +47,14 @@
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": [
-                "\"Start Combat\""
+                "\"Start Combat\"",
+                "\"Player Attack\"",
+                "\"Move Player\"",
+                "\"End Turn\"",
+                "\"Monster Submit\"",
+                "\"Inventory Submit\"",
+                "\"Character Submit\"",
+                "\"Weapon Select\""
             ],
             "multiselect": false,
             "rangeEnabled": false,
@@ -97,6 +64,34 @@
             "value": "\"Start Combat\"",
             "varName": "type",
             "varType": 6
+        },
+        {
+            "id": "e1424499-558d-49ba-bfb2-f529c791d7ae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Accept",
+            "varName": "text",
+            "varType": 2
+        },
+        {
+            "id": "4acf7421-6bb2-49be-923f-b5d2b82b1edb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "creator",
+            "varType": 0
         }
     ],
     "solid": false,
