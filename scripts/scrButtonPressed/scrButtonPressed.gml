@@ -33,6 +33,7 @@ switch(type){
 	break;
 	case "Weapon Select":
 		creator.creator.playerInfo[1] = creator.currentWeapon;
+		creator.currentWeapon = -1;
 		weapon_menu_close();
 	break;
 	case "Monster Submit":
