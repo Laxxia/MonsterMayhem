@@ -4,7 +4,7 @@
 // Inherit the parent event
 path_clear_points(movementPath);
 playerMove = false;
-if(playerAttack){
+if(playerAttackPoint){
 	monsterState = "find target";
 } else {
 	monsterState = "idle";

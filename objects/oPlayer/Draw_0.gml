@@ -1,7 +1,7 @@
  /// @description Insert description here
 // You can write your code in this editor
 //if cursor is hovering over a different node than actor
-if(	global.curState = state.moving){
+if(	oGameController.curState = state.moving){
 	if(place_meeting(oCursor.x, oCursor.y, oGridSpace) && oCursor.hoverNode != noone && oCursor.hoverNode != currentTile){
 		current = oCursor.hoverNode;
 	

@@ -6,6 +6,6 @@ for (var i = 1; i < array_length_1d(global.survivorList); i++){ //Starts on 1 be
 		survivorFinish ++;
 	}
 	if(survivorFinish == array_length_1d(global.survivorList) - 1){
-		global.curState = state.monsterTurn;
+		oGameController.curState = state.monsterTurn;
 	}
 }

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.curPlayer != noone){
-	global.curPlayer.hitChance = hitChance;
-	global.curPlayer.playerState = "begin attack"
-	creator.active = false;
+if(oGameController.curPlayer != noone){
+	oGameController.curPlayer.hitChance = hitChance;
+	oGameController.curPlayer.playerState = "begin attack"
+	player_hitLocation_menu_close();
 }

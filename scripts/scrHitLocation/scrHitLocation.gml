@@ -1,2 +1,9 @@
-var inst = instance_create_layer(1464, 560, "toolBoxes", oHitLocationBox);
-inst.image_yscale = 1.25;
+if(actionBarPopup.menu_open) exit;
+
+//Open DisplayMenu
+var _menu_layer=layer_get_id("hitLocations");
+with(_ui_parent)
+{
+	ui_element_toggle_active(layer == _menu_layer);
+}
+actionBarPopup.menu_open=true;

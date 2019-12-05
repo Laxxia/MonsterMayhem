@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+// Inherit the parent event
+if (visualState == VisualState.inactive) exit;
+
 draw_self();
 //To Do this will be changed to hit location later
 //Also chance the hit percentage chances to possible be like, the hit chance of the location AND the weapons chance with it

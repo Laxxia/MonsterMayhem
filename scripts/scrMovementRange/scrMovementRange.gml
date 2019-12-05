@@ -3,7 +3,7 @@
 
 //reset all node data
 scrClearNodes();
-if(global.curPlayer.playerMove){
+if(oGameController.curPlayer.playerMove){
 
 	var open, closed;
 	var start, current, neighbor;

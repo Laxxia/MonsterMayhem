@@ -1,5 +1,5 @@
 if(oGameController.remainingSurvivors <= 0 && room == combatArena){
-	global.curState = state.overlay;
+	oGameController.curState = state.overlay;
 	var inst = instance_create_layer(x, y, "UIBase", oPopUp);
 	inst.image_xscale = 2;
 	inst.image_yscale = 2;
@@ -7,8 +7,8 @@ if(oGameController.remainingSurvivors <= 0 && room == combatArena){
 	inst.y = room_height/2 - (inst.sprite_height /2)
 	inst.type = "Loss";
 } else if(room == combatArena) {
-	global.tempState = global.curState;
-	global.curState = state.overlay;
+	global.tempState = oGameController.curState;
+	oGameController.curState = state.overlay;
 	var inst = instance_create_layer(x, y, "UIBase", oPopUp);
 	inst.image_xscale = 2;
 	inst.image_yscale = 2;

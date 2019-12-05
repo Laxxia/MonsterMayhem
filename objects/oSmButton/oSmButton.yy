@@ -26,7 +26,16 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "2a8339e5-3faa-485a-94e8-f1a6b6751b50",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "f3b134ab-0d99-489e-9535-bd5df6789c79",
+            "propertyId": "26bdfb38-0d65-4ad0-938e-9799f0510d99",
+            "value": "scrButtonPressed"
+        }
+    ],
     "parentObjectId": "f3b134ab-0d99-489e-9535-bd5df6789c79",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -54,7 +63,8 @@
                 "\"Monster Submit\"",
                 "\"Inventory Submit\"",
                 "\"Character Submit\"",
-                "\"Weapon Select\""
+                "\"Weapon Select\"",
+                "\"Next Room\""
             ],
             "multiselect": false,
             "rangeEnabled": false,
@@ -75,7 +85,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Accept",
+            "value": "\"\"",
             "varName": "text",
             "varType": 2
         },

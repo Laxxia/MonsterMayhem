@@ -1,4 +1,4 @@
-var targetPlayer = global.curPlayer
+var targetPlayer = oGameController.curPlayer
 var temp = noone;
 	var current = targetPlayer.currentTile;
 	for(var i = 0; i < ds_list_size(current.neighbors); i++){

@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-if(global.curState = state.monsterTurn){
+if(oGameController.curState = state.monsterTurn){
 	switch(monsterState){
 	case "turn start":
-		playerAttack = true;
+		playerAttackPoint = true;
 		playerMove = true;
 		monsterState = "draw card";
 		//This is possibly a start of turn script that needs to exist
@@ -53,14 +53,14 @@ if(global.curState = state.monsterTurn){
 		monsterState = "moving";
 	break;
 	case "idle":     
-		global.curPlayer = noone;
-		global.curState = state.playerStartTurn;
+		oGameController.curPlayer = noone;
+		oGameController.curState = state.playerStartTurn;
 		monsterState = "turn start";
 	break;
 	}
 }
 
 if(healthPoints <= 0){
-	global.curState = state.win;
+	oGameController.curState = state.win;
 	instance_destroy();
 }

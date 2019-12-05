@@ -1,11 +1,11 @@
 var current = hoverNode;
-var targetPlayer = global.curPlayer;
+var targetPlayer = oGameController.curPlayer;
 
 scrCreatePath(targetPlayer, current);
 
 //first clear node of selected actor.
 
-var targetPlayer = global.curPlayer;
+var targetPlayer = oGameController.curPlayer;
 var tile = current;
 var originalTile = targetPlayer.currentTile;
 

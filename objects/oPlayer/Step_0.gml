@@ -8,16 +8,16 @@ if (grabbed) {
     y = mouse_y;
 }
 
-if (global.curPlayer = id) {
+if (oGameController.curPlayer = id) {
     image_alpha = .5;
 } else {
     image_alpha = 1;
 }
-if(global.curState == state.playerTurn){
+if(oGameController.curState == state.playerTurn){
 	switch (playerState) {
 		case "start turn":
 		playerMove = true;
-		playerAttack = true;
+		playerAttackPoint = true;
 		endTurn = false;
 		if(status == "Knocked Down"){
 			playerState = "ending turn";
@@ -29,7 +29,6 @@ if(global.curState == state.playerTurn){
 	    case "begin player path":
 	        path_start(movementPath, pathSpeed, 0, true);
 	        playerState = "moving";
-	        global.curPlayer = noone;
 	        break;
 	    case "hit choice":
 			scrHitLocation();
@@ -43,8 +42,8 @@ if(global.curState == state.playerTurn){
 	        }
 	        break;
 	    case "attacking":
-	        //a for loop here where speed is the max for loop count
-	        playerAttack = false;
+	        playerAttackPoint = false;
+			//When wounding add them to a stack, then pop them off for the damage
 	        if (attackTarget != noone) {
 	            var attackCheck = scrHitCheck(currentWeapon, hitChance);
 	            var woundCheck = 0;
@@ -67,18 +66,13 @@ if(global.curState == state.playerTurn){
 			case "mid attack":
 			break;
 	    case "end attack":
-	            if (!playerMove) {
-	                playerState = "ending turn"
-					global.curPlayer = noone;
-	            } else {
-	                playerState = "idle";
-	            }
-	        break;
+			playerState = "idle";
+	       break;
 	    case "ending turn":
 			if(status == "Knocked Down"){
 				status = "Normal";
 				playerMove = false;
-				playerAttack = false;
+				playerAttackPoint = false;
 			}
 	        endTurn = true;
 	        scrEndTurnCheck();

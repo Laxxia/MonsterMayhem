@@ -1,4 +1,4 @@
-global.curState = state.playerTurn;
+oGameController.curState = state.playerTurn;
  with(oPlayer) {
     if (objectType = combatType.friendly) {
         playerState = "start turn";

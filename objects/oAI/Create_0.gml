@@ -18,7 +18,7 @@ triggerScripts = [];
 
 //Actionable actions tracker
 playerMove = true; //Tracks if they've used their movement point
-playerAttack = true; //Tracks if they've used their action point 
+playerAttackPoint = true; //Tracks if they've used their action point 
 currentTile = noone;
 endTurn = false;
 //Pathing Variables ------------

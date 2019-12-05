@@ -5,10 +5,10 @@ if(keyboard_check_pressed(ord("D"))){
 	global.debug = !global.debug;;
 }
 
-switch(global.curState){
+switch(oGameController.curState){
 	case state.combatStart:
 	scrPlaceSurvivors();
-	global.curState = state.freeMovement;
+	oGameController.curState = state.freeMovement;
 	break;
 	case state.freeMovement:
 	//This occurs at the start of the game, to be able to place the characters onto the board.

@@ -1,4 +1,4 @@
-global.curState = state.overlay;
+oGameController.curState = state.overlay;
 var cardID = argument0;
 var inst = instance_create_layer(x, y, "UIBase", oPopUp);
 	inst.image_xscale = 2;

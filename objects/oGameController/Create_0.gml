@@ -9,10 +9,10 @@ global.xStart = 50;
 global.yStart = 50;
 
 global.debug = false;
-global.curState = state.idle;
-global.curPlayer = noone;
+oGameController.curState = state.idle;
+oGameController.curPlayer = noone;
 global.survivorList[0] = -1;
-global.tempState = global.curState;
+global.tempState = oGameController.curState;
 
 instance_create_layer(x, y, "Mouse", oCursor);
 
@@ -27,6 +27,8 @@ monsters = [monster.defaultMon, monster.FeyCursedPig];
 selectedMonster = -1;
 remainingSurvivors = 0;
 
+
+targetMonster = noone;
 global.characterInventory = ds_grid_create(4,7);
 ds_grid_clear(global.characterInventory, -1);
 menu_open = false;

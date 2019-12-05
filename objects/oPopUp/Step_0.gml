@@ -61,7 +61,7 @@ switch(type){
 	break;
 }
 
-if(global.curState != state.overlay){
+if(oGameController.curState != state.overlay){
 	for(var i = 0; i < buttonCount; i++){
 		instance_destroy(buttons[i]);
 	}

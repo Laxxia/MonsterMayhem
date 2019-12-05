@@ -17,16 +17,16 @@ if(room = combatArena){
 	}
 
 
-	if(global.curState = state.moving){
+	if(oGameController.curState = state.moving){
 		if(mouse_check_button_pressed(mb_left) && !offGrid){
 			if(hoverNode.moveNode){
 				scrMovePlayer();
-				global.curState = state.playerTurn;
+				oGameController.curState = state.playerTurn;
 			}
 		}
 		if(mouse_check_button_pressed(mb_right)){
-			global.curState = state.playerTurn;
-			global.curPlayer = noone;
+			oGameController.curState = state.playerTurn;
+			oGameController.curPlayer = noone;
 		}
 	}
 }

@@ -47,9 +47,10 @@ tile.containing = inst;
 inst.gridX = 8;
 inst.gridY = 11;
 inst.monsterID = selectedMonster;
+oGameController.targetMonster = inst;
 with(inst){
 	scrMonsterMaker(monsterID);
 }
 
 
-global.curState = state.combatStart;
+oGameController.curState = state.combatStart;

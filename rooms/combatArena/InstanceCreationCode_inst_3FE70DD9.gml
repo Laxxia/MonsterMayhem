@@ -1,1 +1,1 @@
-type = "Start Combat";
+inactive_offset=[0,300];

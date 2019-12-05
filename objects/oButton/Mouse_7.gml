@@ -8,10 +8,10 @@ switch(type){
 	break;
 	case "Attacked":
 		creator.monsterState = "attack";
-		global.curState = state.monsterTurn;
+		oGameController.curState = state.monsterTurn;
 	break;
 	case "Death":
-		global.curState = global.tempState;
+		oGameController.curState = global.tempState;
 	break;
 	case "Next Room":
 		room = combatArena; //Make this better
