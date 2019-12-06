@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "6e7a9fe6-5a93-4fb3-9c0c-f86bd2999421",
+            "Value": {
+                "id": "f8872ad8-6f3f-4d0b-b3e8-f7c4c4e15964",
+                "resourcePath": "scripts\\attack_popup_close\\attack_popup_close.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6f702f75-12ab-4684-80c0-50eec0957a36",
             "Value": {
                 "id": "42d9e211-43cf-4883-b226-32707e7db741",
@@ -1047,6 +1055,14 @@
             }
         },
         {
+            "Key": "c885c656-a371-4843-be28-d1de4f795d12",
+            "Value": {
+                "id": "b0399e0b-4608-435e-a293-bfe7163b22f7",
+                "resourcePath": "objects\\oPopUp1\\oPopUp1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "1ec3e07b-031a-4d8a-9301-ad05a551ea2f",
@@ -1302,6 +1318,7 @@
         "ae2be8b3-3c0e-4077-8a9f-4e5d49682355",
         "d28fc8ed-3ba2-4e77-8a46-89b7e0eaf2df",
         "ebd0636a-fefd-408a-bb4f-d15187c959fd",
+        "6e7a9fe6-5a93-4fb3-9c0c-f86bd2999421",
         "9fed6ee0-100f-447f-8af7-7f1d56958edd",
         "f601c029-3428-4ed4-a88e-0e3bfce76e73",
         "7ca99afd-379c-48a3-9e25-b0ee1872b013",

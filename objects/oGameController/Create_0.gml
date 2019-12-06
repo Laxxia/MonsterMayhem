@@ -32,3 +32,4 @@ targetMonster = noone;
 global.characterInventory = ds_grid_create(4,7);
 ds_grid_clear(global.characterInventory, -1);
 menu_open = false;
+popup = false;

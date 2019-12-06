@@ -55,4 +55,9 @@ switch(type){
 	case "Next Room":
 		room = combatArena; //Make this better
 	break;
+	case "Attacked":
+		creator.monsterState = "attack";
+		attack_popup_close();
+		creator.creator.monsterState = "attack";
+	break;
 }
