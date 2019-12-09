@@ -1,63 +1,42 @@
 {
-    "id": "64a70142-c554-4f89-86d6-bb049a76acec",
+    "id": "8a2e0614-b588-416f-b263-abd59917392e",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oButton",
     "eventList": [
         {
-            "id": "91f8f21b-4518-4ecc-9af5-0b4a47a5aa01",
+            "id": "ba516335-fbe2-4a1d-879e-fb2a1aaf19fb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "64a70142-c554-4f89-86d6-bb049a76acec"
+            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
         },
         {
-            "id": "7168c034-bde1-4f7d-b7dc-9def5286ac50",
+            "id": "7d711144-c900-4ca9-aa0f-33e0345cbfcc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "64a70142-c554-4f89-86d6-bb049a76acec"
-        },
-        {
-            "id": "61e99d9f-7aa9-4d7b-8d98-5de2bf055316",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
-            "m_owner": "64a70142-c554-4f89-86d6-bb049a76acec"
-        },
-        {
-            "id": "e769a42e-c7ca-49ca-9df2-4adbbf63a6e4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "64a70142-c554-4f89-86d6-bb049a76acec"
-        },
-        {
-            "id": "98c90b52-1f81-41db-b9d0-44cb6cb8eb95",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "64a70142-c554-4f89-86d6-bb049a76acec"
+            "m_owner": "8a2e0614-b588-416f-b263-abd59917392e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "2a8339e5-3faa-485a-94e8-f1a6b6751b50",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "f3b134ab-0d99-489e-9535-bd5df6789c79",
+            "propertyId": "26bdfb38-0d65-4ad0-938e-9799f0510d99",
+            "value": "scrButtonPressed"
+        }
+    ],
+    "parentObjectId": "f3b134ab-0d99-489e-9535-bd5df6789c79",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -73,26 +52,59 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "2f6f7e70-fc89-4f66-8711-41b4d3b69c15",
+            "id": "dfbefb16-d141-4607-9c2e-e36022f95228",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": [
-                "\"Next Room\"",
-                "\"Death\"",
-                "\"Attacked\"",
-                "\"Restart\""
+                "\"Start Combat\"",
+                "\"Player Attack\"",
+                "\"Move Player\"",
+                "\"End Turn\"",
+                "\"Monster Submit\"",
+                "\"Inventory Submit\"",
+                "\"Character Submit\"",
+                "\"Weapon Select\"",
+                "\"Next Room\""
             ],
             "multiselect": false,
             "rangeEnabled": false,
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Next Room\"",
+            "value": "\"Start Combat\"",
             "varName": "type",
             "varType": 6
+        },
+        {
+            "id": "e1424499-558d-49ba-bfb2-f529c791d7ae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"\"",
+            "varName": "text",
+            "varType": 2
+        },
+        {
+            "id": "4acf7421-6bb2-49be-923f-b5d2b82b1edb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "creator",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "5ca918f4-7d04-44fa-bcc2-820061f970b6",
+    "spriteId": "a8913e53-e326-4bea-9f5f-146b033fcef8",
     "visible": true
 }

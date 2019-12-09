@@ -56,8 +56,13 @@ switch(type){
 		room = combatArena; //Make this better
 	break;
 	case "Attacked":
-		creator.monsterState = "attack";
 		attack_popup_close();
 		creator.creator.monsterState = "attack";
+	break;
+		case "Restart":
+		game_restart();
+	break;
+	case "Death":
+		attack_popup_close();
 	break;
 }

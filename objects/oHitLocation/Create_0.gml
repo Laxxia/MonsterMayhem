@@ -2,5 +2,5 @@
 // You can write your code in this editor
 event_inherited();
 
-inactive_offset=[0,0];
+inactive_offset=[200,0];
 active_pos = [xstart,ystart];
