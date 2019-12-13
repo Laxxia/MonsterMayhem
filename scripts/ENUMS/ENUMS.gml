@@ -55,3 +55,13 @@ enum monsterAI{
 	phase = 7,
 	type = 8
 }
+
+enum hitLocationTable{
+	loc = 0,
+	actionScript = 1,
+	specialID = 2,
+	locName = 3,
+	locInfo = 4,
+	locImage = 5,
+	locID = 6
+}

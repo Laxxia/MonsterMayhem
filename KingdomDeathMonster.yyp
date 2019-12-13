@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0845d75e-32c2-4d33-997f-33b9944ebc94",
+            "Value": {
+                "id": "8ac0ba41-b177-4f7b-8597-dd03cd4e0212",
+                "resourcePath": "objects\\oHitLocationPanel\\oHitLocationPanel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0921fb6a-3482-4fee-9d50-c2e831da6370",
             "Value": {
                 "id": "0b63d200-d4cf-46cb-9329-53dc9ed54a70",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "4591d1f5-63a1-4116-a482-80662e336a7c",
+            "Value": {
+                "id": "50dbebf0-0645-4e85-b1df-2d6eebeacd07",
+                "resourcePath": "scripts\\scrAIHitLocDeckBuilder\\scrAIHitLocDeckBuilder.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "45c3f884-621e-4233-92f4-d5b04fd966b1",
             "Value": {
                 "id": "19181dd2-dbd9-4d14-91e3-ccd6a3672dfd",
@@ -367,11 +383,27 @@
             }
         },
         {
+            "Key": "4918edc2-a916-4d6d-8c23-6700c3610483",
+            "Value": {
+                "id": "3ef11474-6996-48fd-af5f-a86c315f4942",
+                "resourcePath": "scripts\\scrActivateHitLocationPanel\\scrActivateHitLocationPanel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "49d0825a-9bd7-47ac-8757-e6136b4b4659",
             "Value": {
                 "id": "4f9c587a-7a5c-4a6b-977d-13e804f56923",
                 "resourcePath": "views\\49d0825a-9bd7-47ac-8757-e6136b4b4659.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "51b0da35-66ec-4441-bcbd-eb42c5ef0065",
+            "Value": {
+                "id": "01adbfc7-ae16-4481-b595-0dae7c4b9823",
+                "resourcePath": "sprites\\sHitLocChoiceCard\\sHitLocChoiceCard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -427,6 +459,14 @@
             "Value": {
                 "id": "d6c1b3d2-11a3-42a4-972e-8b86ce9de7c6",
                 "resourcePath": "objects\\oSurvivorOne\\oSurvivorOne.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5be967fa-10df-4b90-b599-3859687e1345",
+            "Value": {
+                "id": "ce61e545-ef81-4fec-9e1b-de69f30119d5",
+                "resourcePath": "objects\\oHitLocArt\\oHitLocArt.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -759,6 +799,14 @@
             }
         },
         {
+            "Key": "9c990b6d-a1de-4002-94c0-9910db7f28f2",
+            "Value": {
+                "id": "368f0735-8ab3-469c-9a24-8ac99ec48a61",
+                "resourcePath": "objects\\oHitLocationCard\\oHitLocationCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d332caf-7dae-4255-9f79-5d4cb7101e92",
             "Value": {
                 "id": "a586df27-3156-4d7e-bbd1-c9ced75c14f9",
@@ -1023,6 +1071,14 @@
             }
         },
         {
+            "Key": "c6079d07-c860-4739-8348-41e91bc742f5",
+            "Value": {
+                "id": "d53fe23d-4522-4c42-8b2e-5c13c9235f3b",
+                "resourcePath": "datafiles_yy\\FCPHitLocs.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "c74daf60-faac-457b-8900-291ad8b9a859",
             "Value": {
                 "id": "f3c696cf-be35-4b0a-8ea7-fd4dd6212ee1",
@@ -1215,6 +1271,14 @@
             }
         },
         {
+            "Key": "ef20dd4e-4e99-49e9-950b-87d5157ab4f0",
+            "Value": {
+                "id": "5fef058c-5cdf-4b78-ac9e-60e826013a24",
+                "resourcePath": "sprites\\sHitLocArt\\sHitLocArt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3b134ab-0d99-489e-9535-bd5df6789c79",
             "Value": {
                 "id": "0d891662-0bbd-480b-b6cb-3523bbae9e46",
@@ -1285,15 +1349,16 @@
         "ec9f7030-d25e-4b2e-81d7-db522e8c5b9e",
         "157604d9-e36e-4bde-a7b8-c081a2700ffd",
         "62e5e861-a446-4e61-8ab6-5dc818e4cf0b",
+        "4918edc2-a916-4d6d-8c23-6700c3610483",
         "61266b5f-522f-4ea8-ad24-f23c3c54c982",
         "7ebc75e1-34e5-48d7-8b80-acc79648d511",
         "ba594bcf-d198-4e58-9ca9-d70463857754",
         "fbf39c8d-89b8-4dfc-bb87-982425d43004",
         "e8a599ca-5125-4a31-b9b2-0b21bde9cb5f",
+        "bbb16c86-7d45-4c40-bfca-8e8de7cd5029",
         "154ddeed-fc71-4374-93b7-697c5b3fed1b",
         "03a09917-8487-4ed8-88e6-3aeceeb69d15",
         "bcc1fc53-cb56-4cda-ab3f-d5833ae7289d",
-        "bbb16c86-7d45-4c40-bfca-8e8de7cd5029",
         "980d9657-70a8-4804-ae83-23ae97ca9f16",
         "53185d43-d35f-4a52-9b08-0fbd3408dabb",
         "b0818779-33d1-4066-96ee-872823eb10ed",
@@ -1306,7 +1371,8 @@
         "9fed6ee0-100f-447f-8af7-7f1d56958edd",
         "f601c029-3428-4ed4-a88e-0e3bfce76e73",
         "7ca99afd-379c-48a3-9e25-b0ee1872b013",
-        "6f702f75-12ab-4684-80c0-50eec0957a36"
+        "6f702f75-12ab-4684-80c0-50eec0957a36",
+        "4591d1f5-63a1-4116-a482-80662e336a7c"
     ],
     "tutorial": ""
 }
