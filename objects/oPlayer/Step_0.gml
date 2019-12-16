@@ -36,12 +36,12 @@ if(oGameController.curState == state.playerTurn){
 		break;
 		case "begin attack":
 	        //this would set up before attack animation
-	        attackTimer -= 1;
-	        if (attackTimer <= 0) {
+	       // attackTimer -= 1;
+	        // if (attackTimer <= 0) {
 				var attackCheck = scrHitCheck(currentWeapon, hitChance);
 				scrActivateHitLocationPanel(attackCheck);
-				//playerState = "attacking";
-	        }
+			 //playerState = "attacking";}
+	        //}
 	        break;
 	    case "attacking":
 	        playerAttackPoint = false;

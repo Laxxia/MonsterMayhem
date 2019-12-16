@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oHitLocArt",
     "eventList": [
-        
+        {
+            "id": "eff758e1-ed60-48cb-be23-f7ce6b128078",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5be967fa-10df-4b90-b599-3859687e1345"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
