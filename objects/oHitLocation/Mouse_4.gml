@@ -2,7 +2,9 @@
 // You can write your code in this editor
 if(oGameController.curPlayer != noone){
 	oGameController.curPlayer.hitChance = hitChance;
+	hitCardLocList.hitLocation = hitLocation; 
 	oGameController.curPlayer.playerState = "begin attack"
+
 	player_hitLocation_menu_close();
 }
 // do it in the begin attack state, call the pop up pass the correct id and run the script with that argument

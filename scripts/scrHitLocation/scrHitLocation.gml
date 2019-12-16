@@ -7,3 +7,5 @@ with(_ui_parent)
 	ui_element_toggle_active(layer == _menu_layer);
 }
 actionBarPopup.menu_open=true;
+
+if(oGameController.menu_open) exit;

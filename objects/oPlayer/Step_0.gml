@@ -38,14 +38,15 @@ if(oGameController.curState == state.playerTurn){
 	        //this would set up before attack animation
 	        attackTimer -= 1;
 	        if (attackTimer <= 0) {
-	            playerState = "attacking";
+				var attackCheck = scrHitCheck(currentWeapon, hitChance);
+				scrActivateHitLocationPanel(attackCheck);
+				//playerState = "attacking";
 	        }
 	        break;
 	    case "attacking":
 	        playerAttackPoint = false;
 			//When wounding add them to a stack, then pop them off for the damage
 	        if (attackTarget != noone) {
-	            var attackCheck = scrHitCheck(currentWeapon, hitChance);
 	            var woundCheck = 0;
 	            if (attackCheck > 0) {
 	                woundCheck = scrToWound(currentWeapon, attackTarget, attackCheck); // TO DO  - count crits
