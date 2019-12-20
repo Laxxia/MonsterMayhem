@@ -40,9 +40,12 @@ if(oGameController.curState == state.playerTurn){
 	        // if (attackTimer <= 0) {
 				var attackCheck = scrHitCheck(currentWeapon, hitChance);
 				scrActivateHitLocationPanel(attackCheck);
+				playerState = "choosing location order";
 			 //playerState = "attacking";}
 	        //}
 	        break;
+		case "choosing location order":
+		break
 	    case "attacking":
 	        playerAttackPoint = false;
 			//When wounding add them to a stack, then pop them off for the damage

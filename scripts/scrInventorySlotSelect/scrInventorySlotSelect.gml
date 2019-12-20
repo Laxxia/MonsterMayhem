@@ -11,3 +11,5 @@ with(_ui_parent)
 }
 
 characterInfoPanel.menu_open=true;
+
+	

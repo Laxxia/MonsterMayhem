@@ -3,6 +3,7 @@
 if(room = combatArena){
 	popup = false;
 	scrArenaCreate();
+	scrLayerCapture();
 	var _ui_layer=layer_get_id("StartingElements");
 	with(_ui_parent)
 	{

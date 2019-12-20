@@ -25,7 +25,11 @@
         "3596406d-0eb2-47ea-a42d-c309af448e7b",
         "367758f6-ae05-45a7-90fa-ed1f9b1ac961",
         "2051157f-650f-4217-8091-911719e72eaa",
-        "22e3315f-d11f-4acd-a75b-0f4275aaf8c4"
+        "22e3315f-d11f-4acd-a75b-0f4275aaf8c4",
+        "b7b9dc69-230a-4ab5-81a1-10d1d8226f87",
+        "008bf7d5-c4a5-4b85-b5f1-8d2a3d9973c9",
+        "59a7bd59-197d-4177-981b-8d4c529050db",
+        "64ea1967-ae97-4525-8d07-0bce7b05ab1b"
     ],
     "IsDnD": false,
     "layers": [
@@ -135,9 +139,8 @@
             "visible": true
         },
         {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "locationCards",
-            "id": "f85bb68a-d8cc-4e2c-b32d-1bcc7557be63",
+            "name": "hitLocationCards",
+            "id": "de28f5da-62db-4d2d-bd67-f8bb7d7675d9",
             "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
@@ -147,15 +150,115 @@
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
-            "instances": [
-
-            ],
             "layers": [
+                {
+                    "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+                    "name": "locationCards4",
+                    "id": "74cd8051-da8f-4ae0-bbeb-54090ecef53d",
+                    "depth": 500,
+                    "grid_x": 8,
+                    "grid_y": 8,
+                    "hierarchyFrozen": false,
+                    "hierarchyVisible": true,
+                    "inheritLayerDepth": false,
+                    "inheritLayerSettings": false,
+                    "inheritSubLayers": false,
+                    "inheritVisibility": false,
+                    "instances": [
+{"name": "hitCard4","id": "64ea1967-ae97-4525-8d07-0bce7b05ab1b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "hitCard4","objId": "fd6a6b3e-ddca-460d-84d6-ec621d9f0a86","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 408,"y": 448}
+                    ],
+                    "layers": [
 
+                    ],
+                    "m_parentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "modelName": "GMRInstanceLayer",
+                    "mvc": "1.0",
+                    "userdefined_depth": false,
+                    "visible": true
+                },
+                {
+                    "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+                    "name": "locationCards3",
+                    "id": "ad0f3b9f-1e18-4726-aba3-8fecfb33bd5d",
+                    "depth": 600,
+                    "grid_x": 8,
+                    "grid_y": 8,
+                    "hierarchyFrozen": false,
+                    "hierarchyVisible": true,
+                    "inheritLayerDepth": false,
+                    "inheritLayerSettings": false,
+                    "inheritSubLayers": false,
+                    "inheritVisibility": false,
+                    "instances": [
+{"name": "hitCard3","id": "59a7bd59-197d-4177-981b-8d4c529050db","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "hitCard3","objId": "fd6a6b3e-ddca-460d-84d6-ec621d9f0a86","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 408,"y": 368}
+                    ],
+                    "layers": [
+
+                    ],
+                    "m_parentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "modelName": "GMRInstanceLayer",
+                    "mvc": "1.0",
+                    "userdefined_depth": false,
+                    "visible": true
+                },
+                {
+                    "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+                    "name": "locationCards2",
+                    "id": "f48d9559-1064-40e2-b7da-199f7f1d922e",
+                    "depth": 700,
+                    "grid_x": 8,
+                    "grid_y": 8,
+                    "hierarchyFrozen": false,
+                    "hierarchyVisible": true,
+                    "inheritLayerDepth": false,
+                    "inheritLayerSettings": false,
+                    "inheritSubLayers": false,
+                    "inheritVisibility": false,
+                    "instances": [
+{"name": "hitCard2","id": "008bf7d5-c4a5-4b85-b5f1-8d2a3d9973c9","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "hitCard2","objId": "fd6a6b3e-ddca-460d-84d6-ec621d9f0a86","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 408,"y": 288}
+                    ],
+                    "layers": [
+
+                    ],
+                    "m_parentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "modelName": "GMRInstanceLayer",
+                    "mvc": "1.0",
+                    "userdefined_depth": false,
+                    "visible": true
+                },
+                {
+                    "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+                    "name": "locationCards1",
+                    "id": "f85bb68a-d8cc-4e2c-b32d-1bcc7557be63",
+                    "depth": 800,
+                    "grid_x": 8,
+                    "grid_y": 8,
+                    "hierarchyFrozen": false,
+                    "hierarchyVisible": true,
+                    "inheritLayerDepth": false,
+                    "inheritLayerSettings": false,
+                    "inheritSubLayers": false,
+                    "inheritVisibility": false,
+                    "instances": [
+{"name": "hitCard1","id": "b7b9dc69-230a-4ab5-81a1-10d1d8226f87","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "hitCard1","objId": "fd6a6b3e-ddca-460d-84d6-ec621d9f0a86","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 408,"y": 208}
+                    ],
+                    "layers": [
+
+                    ],
+                    "m_parentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "modelName": "GMRInstanceLayer",
+                    "mvc": "1.0",
+                    "userdefined_depth": false,
+                    "visible": true
+                }
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
+            "modelName": "GMRLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true
@@ -164,7 +267,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "locationChoice",
             "id": "cf97e35a-53a2-432c-9b37-9530ca636431",
-            "depth": 500,
+            "depth": 900,
             "grid_x": 10,
             "grid_y": 10,
             "hierarchyFrozen": false,
@@ -195,7 +298,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "hitLocations",
             "id": "b672ac97-73df-4932-bcb6-1e775cab4026",
-            "depth": 600,
+            "depth": 1000,
             "grid_x": 16,
             "grid_y": 16,
             "hierarchyFrozen": false,
@@ -225,7 +328,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "PlayerActions",
             "id": "8dafefa0-c458-4d3e-8959-24ef1bed1660",
-            "depth": 700,
+            "depth": 1100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -254,7 +357,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "f4345230-8cdb-4d8d-98e4-1a0ccd41cb71",
-            "depth": 800,
+            "depth": 1200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -280,7 +383,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "ToolBoxes",
             "id": "ae48dccc-12fe-4b17-a2ae-f323a611f00d",
-            "depth": 900,
+            "depth": 1300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -306,7 +409,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "StartingElements",
             "id": "2c720f0d-90f0-4001-b4a8-c075fe4dca9a",
-            "depth": 1000,
+            "depth": 1400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -332,7 +435,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "GridSpacetracker",
             "id": "07e9dfd3-e5ed-45ac-be67-a0f34b165f5c",
-            "depth": 1100,
+            "depth": 1500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -358,7 +461,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Map",
             "id": "5c6643a5-5ecf-48ff-bcd8-72e374fb651c",
-            "depth": 1200,
+            "depth": 1600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -387,7 +490,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 1300,
+            "depth": 1700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
