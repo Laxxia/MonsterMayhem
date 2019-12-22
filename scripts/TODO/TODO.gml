@@ -6,18 +6,14 @@
 -------------------------------------------------------
 */
 //ALSO ANY INLINE COMMENTS THAT NEED TO BE FIXED LATER START WITH [TODO - ] - so that they can be searched later
-#region //Immediate To Do's
+#region //Immediate TODO's
 /*
 
 -Full Player Stats/Armor
 	-Currently happening
 	BIG THING -- Nameable characters; //But also this is the first new system implemented since attacks
 
--Still not sure how I want to do this? KDM or Health Marks
-
--Monster Damage done with VATS hitzones, then hit locations in those hitzones, effects on those hitlocations
-   - X damage to Y Zones = kill
-
+-Still not sure how I want TODO this? KDM or Health Marks
 
 #endregion
 

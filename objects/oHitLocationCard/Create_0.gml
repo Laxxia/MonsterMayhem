@@ -8,8 +8,8 @@ locID = -1;
 
 inactive_offset=[0,-200];
 active_pos = [xstart,ystart];
-locationInformation[0] = "";
-locationInformation[1] = "";
+locationInformation[0] = -1;
+locationInformation[1] = -1;
 locationInformation[2] = -1;
 hitCount = 0;
 

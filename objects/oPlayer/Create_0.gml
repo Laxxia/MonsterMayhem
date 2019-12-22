@@ -30,6 +30,8 @@ attackTimer = 0;
 shake = 0;
 shakeMag = 0;
 hitLocationChoice = -1;
+locationTargets[0] = -1;
+
 
 //Player Stat Variabls
 healthPoints = 2;

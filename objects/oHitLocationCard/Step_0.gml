@@ -6,9 +6,6 @@ event_inherited();
 
 switch(type){
 	case "Location List":
-	if(listCreate){
-		//scrHitListCreate(hitCount, hitLocation);
-	}
 	break;
 	case "Location Info":
 	break;

@@ -1,4 +1,20 @@
 switch(type){
+	case "Hit Location Parse":
+	var list = oHitLocationPanel.hitOrder;
+	for(var i = 0; i < ds_list_size(list); i++){
+		oGameController.curPlayer.locationTargets[i] = list[| i];
+	}
+	oGameController.curPlayer.playerState = "attacking";
+	ds_list_clear(list);
+	player_hitLocation_popup_close();
+	break;
+	case "Add Hit Location":
+		var list = oHitLocationPanel.hitOrder;
+		if(ds_list_find_index(list, creator.locID) = -1){
+			ds_list_add(list, creator.locID);
+		}
+		
+	break;
 	case "Move Player":
 		if(oGameController.curPlayer.playerMove){
 			var inst = oGameController.curPlayer;

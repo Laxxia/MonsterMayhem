@@ -36,29 +36,28 @@ if(oGameController.curState == state.playerTurn){
 		break;
 		case "begin attack":
 	        //this would set up before attack animation
-	       // attackTimer -= 1;
-	        // if (attackTimer <= 0) {
-				var attackCheck = scrHitCheck(currentWeapon, hitChance);
+			attackCheck = scrHitCheck(currentWeapon, hitChance);
+			if(attackCheck == 0){playerState = "attacking";} else{
 				scrActivateHitLocationPanel(attackCheck);
 				playerState = "choosing location order";
-			 //playerState = "attacking";}
-	        //}
-	        break;
+			}
+	    break;
 		case "choosing location order":
-		break
+		break;
 	    case "attacking":
 	        playerAttackPoint = false;
 			//When wounding add them to a stack, then pop them off for the damage
 	        if (attackTarget != noone) {
 	            var woundCheck = 0;
 	            if (attackCheck > 0) {
-	                woundCheck = scrToWound(currentWeapon, attackTarget, attackCheck); // TO DO  - count crits
+	                woundCheck = scrToWound(currentWeapon, attackTarget, attackCheck); // TODO  - count crits
 	            }
 	        }
 	        scrClearNodes();
 	        switch (global.weapons[# weaponStats.weaponType, currentWeapon]) {
 	            case "Melee":
-	                woundCount = woundCheck;
+	                //Weird bug here where it sends out all 4 attacks :thinking:
+					woundCount = woundCheck;
 					alarmCount = 0;
 					alarm[0] = room_speed/2;
 					playerState = "mid attack";

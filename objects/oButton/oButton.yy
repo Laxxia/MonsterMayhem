@@ -64,7 +64,9 @@
                 "\"Inventory Submit\"",
                 "\"Character Submit\"",
                 "\"Weapon Select\"",
-                "\"Next Room\""
+                "\"Next Room\"",
+                "\"Add Hit Location\"",
+                "\"Hit Location Parse\""
             ],
             "multiselect": false,
             "rangeEnabled": false,
