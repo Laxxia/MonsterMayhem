@@ -58,7 +58,6 @@ if(oGameController.curState == state.playerTurn){
 	            case "Melee":
 	                //Weird bug here where it sends out all 4 attacks :thinking:
 					woundCount = woundCheck;
-					alarmCount = 0;
 					alarm[0] = room_speed/2;
 					playerState = "mid attack";
 	                break;

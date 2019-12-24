@@ -11,7 +11,6 @@
 
 -Full Player Stats/Armor
 	-Currently happening
-	BIG THING -- Nameable characters; //But also this is the first new system implemented since attacks
 
 -Still not sure how I want TODO this? KDM or Health Marks
 

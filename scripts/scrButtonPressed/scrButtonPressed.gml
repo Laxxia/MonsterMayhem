@@ -1,6 +1,7 @@
 switch(type){
 	case "Hit Location Parse":
 	var list = oHitLocationPanel.hitOrder;
+	if(ds_list_size(list) < oHitLocationPanel.maxHits){exit;}
 	for(var i = 0; i < ds_list_size(list); i++){
 		oGameController.curPlayer.locationTargets[i] = list[| i];
 	}

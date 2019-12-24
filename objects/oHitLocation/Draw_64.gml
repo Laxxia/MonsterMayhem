@@ -5,7 +5,7 @@
 if (visualState == VisualState.inactive) exit;
 
 draw_self();
-//TODO this will be changed to hit location later
+//TODO this will be changed to hit location later %chance
 //Also chance the hit percentage chances to possible be like, the hit chance of the location AND the weapons chance with it
 hitText = hitChance * 100;
 switch(location){

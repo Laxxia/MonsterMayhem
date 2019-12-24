@@ -32,7 +32,6 @@ if (woundCount > 0) {
     }
 }
 woundCount--;
-alarmCount ++;
-if(alarmCount < global.weapons[# weaponStats.weaponSpeed, currentWeapon]){
+if(woundCount > 0){
 	alarm[0] = room_speed/2;
 } else {playerState = "end attack";}

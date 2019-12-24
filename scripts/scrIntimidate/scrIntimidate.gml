@@ -5,4 +5,3 @@ if(diceRoll >= 4){
 	target.brainHealth -= 1 // + monster level for future;
 	scrKnockedDown(target);
 }
-//TODO -- also execute a knocked down script with the target when this happens to signify it has moved its status

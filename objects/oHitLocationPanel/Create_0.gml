@@ -6,3 +6,4 @@ inactive_offset=[0,-200];
 active_pos = [xstart,ystart];
 
 hitOrder = ds_list_create();
+maxHits = -1;

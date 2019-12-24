@@ -12,7 +12,6 @@ switch(type){
 		text[0] = string(target) + " is being Attacked!";
 		text[1] = "The monster uses " + string(creator.aiPool[# monsterAI.attackName, eventID]);
 		//TODO - set it so you can choose to act at this time.
-		//Debug note, also create a click on the monster, be able to see their entire action deck at any moment.
 		buttonChild.type = "Attacked";
 		buttonChild.text = "Accept Fate";
 		type = "Complete";

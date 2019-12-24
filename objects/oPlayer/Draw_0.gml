@@ -6,7 +6,6 @@ if(	oGameController.curState = state.moving){
 		current = oCursor.hoverNode;
 	
 		//Step through every node in the chain parent to parent until we reach the player node
-		//TODO - there is a bug here when moving cursor out of the screen of play its the same bug as above. the placemeting tries to fix it but its not 
 		while(current.parent != noone){
 			draw_line_width_colour(current.x + 32, current.y + 32, current.parent.x + 32, current.parent.y +32, 4, c_lime, c_lime)
 			current = current.parent;
